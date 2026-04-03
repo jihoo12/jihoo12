@@ -17,8 +17,6 @@ moon
 <br>
 私は月が好きです。
 <br>
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=jihoo12&layout=compact&theme=radical)
-<br>
 I currently use ubuntu 24.04 lts as daily driver.
 <br>
 I'm lazy, so I can only use lts.
