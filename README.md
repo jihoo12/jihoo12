@@ -17,4 +17,4 @@ moon
 <br>
 私は月が好きです。
 <br>
-[![jihoo's GitHub stats](https://github-readme-stats.vercel.app/api?username=jihoo12)](https://github.com/anuraghazra/github-readme-stats)
+[![jihoo's GitHub stats](https://github-readme-stats.vercel.app/api?username=jihoo12)](https://github.com/jihoo12/github-readme-stats)
