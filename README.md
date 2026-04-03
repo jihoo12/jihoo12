@@ -1,2 +1,1 @@
 ### hello
-![img](img.svg)
