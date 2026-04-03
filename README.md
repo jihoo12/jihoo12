@@ -17,3 +17,4 @@ moon
 <br>
 私は月が好きです。
 <br>
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=jihoo12&layout=compact&theme=radical)
