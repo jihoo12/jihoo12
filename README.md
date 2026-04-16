@@ -19,3 +19,6 @@ fn main() {
     println!("hi");
 }
 ```
+~お勉強中だよ~
+<br>
+<img src="https://img.shields.io/badge/OCaml-FF85A1?style=for-the-badge&logo=ocaml&logoColor=white" alt="OCaml">
