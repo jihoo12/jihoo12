@@ -31,3 +31,12 @@ $q:c=d$
 $l:p=q$
 <br>
 🎀ねぼすけなの🎀 
+
+$$
+\begin{aligned}
+\aleph_0^{\aleph_0} & > \aleph_0 \\
+p:a=b, & \quad q:c=d \\
+l: & \quad p=q
+\end{aligned}
+$$
+
