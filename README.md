@@ -22,6 +22,12 @@ fn main() {
 ```
 私の好きなもの
 <br>
-$$ \aleph_0^{\aleph_0}>\aleph_0 \\ p:a=b,q:c=d \\ l:p=q $$
+$$
+\begin{aligned}
+\aleph_0^{\aleph_0} & > \aleph_0 \\
+p:a=b & \quad q:c=d \\
+l: p=q
+\end{aligned}
+$$
 <br>
 🎀ねぼすけなの🎀 
