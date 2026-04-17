@@ -26,3 +26,7 @@ $\aleph_0^{\aleph_0}$
 \~お勉強中だよ\~
 <br>
 <img src="https://img.shields.io/badge/OCaml-FF85A1?style=for-the-badge&logo=ocaml&logoColor=white" alt="OCaml">
+<br>
+🎀
+<br>
+おねぼすけなの
