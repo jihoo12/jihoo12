@@ -13,7 +13,7 @@ fn main() {
     println!("hi");
 }
 ```
-私の好きなもの
+🩷私の好きなもの🩷
 
 $$
 \begin{matrix}
