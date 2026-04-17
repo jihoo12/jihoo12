@@ -21,7 +21,6 @@ fn main() {
 }
 ```
 私の好きなもの
-<br>
 
 $$
 \begin{matrix}
@@ -33,5 +32,5 @@ l:p=q
 \end{matrix}
 $$
 
-<br>
+
 🎀ねぼすけなの🎀 
