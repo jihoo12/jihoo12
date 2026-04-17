@@ -24,11 +24,13 @@ fn main() {
 <br>
 
 $$
+\begin{matrix}
 \aleph_0^{\aleph_0}>\aleph_0
 \\
 p:a=b,q:c=d
 \\
 l:p=q
+\end{matrix}
 $$
 
 <br>
