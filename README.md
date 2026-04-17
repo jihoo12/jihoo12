@@ -1,4 +1,5 @@
 ### hi
+\~お勉強中だよ\~
 ```
 55
 48 89 E5
@@ -23,10 +24,4 @@ fn main() {
 <br>
 $\aleph_0^{\aleph_0}$
 <br>
-\~お勉強中だよ\~
-<br>
-<img src="https://img.shields.io/badge/OCaml-FF85A1?style=for-the-badge&logo=ocaml&logoColor=white" alt="OCaml">
-<br>
-🎀
-<br>
-ねぼすけなの 
+🎀ねぼすけなの🎀 
