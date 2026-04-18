@@ -18,9 +18,9 @@ fn main() {
 
 $$
 \begin{matrix}
-{\aleph_0}^{n}={\aleph_0}^{n+1}=\aleph_0 & (n < \aleph_0)
+p:a=b & q:c=d
 \\
-{\aleph_0}^{\aleph_0}>\aleph_0
+l:p=q
 \end{matrix}
 $$
 
