@@ -1,0 +1,20 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule: # 24시간마다 자동 실행
+    - cron: "0 0 * * *"
+  workflow_dispatch: # 수동으로도 실행 가능하게 설정
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # 위에서 설정한 Secret 이름을 사용합니다.
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
