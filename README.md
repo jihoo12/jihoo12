@@ -16,13 +16,7 @@ fn main() {
 ```
 ## 🩷私の好きなもの🩷
 
-$$
-\begin{matrix}
-p:a=b & q:c=d
-\\
-l:p=q
-\end{matrix}
-$$
+linux,ocaml,rocq
 
 ## i'm a beginner🩷
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu">
