@@ -5,7 +5,7 @@
 ![](https://raw.githubusercontent.com/jihoo12/jihoo12/main/profile-summary-card-output/tokyonight/3-stats.svg)![](https://raw.githubusercontent.com/jihoo12/jihoo12/main/profile-summary-card-output/tokyonight/4-productive-time.svg)
 ![](https://raw.githubusercontent.com/jihoo12/jihoo12/main/profile-summary-card-output/tokyonight/0-profile-details.svg)
 
-```machine code
+```
 55 48 89 E5 
 68 68 69 00 00 
 48 C7 C0 01 00 00 00 
