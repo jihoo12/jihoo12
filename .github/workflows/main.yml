@@ -25,13 +25,17 @@ jobs:
         with:
           python-version: '3.10'
 
-      # 3. 배지 생성 스크립트 실행
+      # 3. 필요한 라이브러리 설치
+      - name: Install dependencies
+        run: pip install requests
+
+      # 4. 배지 생성 스크립트 실행
       - name: Generate Language Stats SVG
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: python update_stats.py
 
-      # 4. 변경사항 커밋 및 강제 푸시 (충돌 완전 해결)
+      # 5. 변경사항 커밋 및 강제 푸시 (충돌 완전 해결)
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
