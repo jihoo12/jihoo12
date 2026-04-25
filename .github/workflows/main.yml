@@ -23,5 +23,13 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add stats.svg
-          git commit -m "Update stats.svg" || exit 0
-          git push
+          
+          # 변경사항이 있을 때만 커밋
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update stats.svg"
+            # 충돌 방지를 위해 먼저 pull을 실행 (rebase 방식)
+            git pull --rebase origin main
+            git push origin main
+          fi
