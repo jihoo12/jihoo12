@@ -14,7 +14,7 @@ LANG_COLORS = {
     "C": "#A8B9CC",
 }
 DEFAULT_COLOR = "#8b949e"
-EXCLUDE = ["Jupyter Notebook", "HTML", "CSS"]
+EXCLUDE = ["Jupyter Notebook"]
 
 def get_github_stats():
     # 저장소 목록 가져오기
