@@ -1,40 +1,54 @@
-name: Update Stats
+name: Update GitHub Language Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 매일 자정 실행
-  workflow_dispatch:     # 수동 실행 버튼
+    - cron: '0 0 * * *' # 매일 한국 시간 오전 9시(UTC 00:00) 자동 실행
+  workflow_dispatch:     # GitHub Actions 탭에서 수동 실행 버튼 활성화
 
 jobs:
-  build:
+  update-stats:
     runs-on: ubuntu-latest
+    # 쓰기 권한 명시 (rejected 에러 방지)
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      # 1. 저장소 코드를 체크아웃 (전체 히스토리 포함)
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. 파이썬 환경 설정
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - name: Run script
+
+      # 3. 배지 생성 스크립트 실행
+      - name: Generate Language Stats SVG
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: python update_stats.py
-      - name: Commit and Push
+
+      # 4. 변경사항 커밋 및 강제 푸시 (충돌 완전 해결)
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 1. 최신 상태 강제 동기화 (충돌 방지)
+          # 원격 저장소와 강제 동기화하여 rejected 에러 방지
           git fetch origin main
-          git reset --mixed origin main
+          git reset --soft origin main
           
-          # 2. 파일 추가 및 커밋
+          # 파일 추가
           git add stats.svg
           
-          # 3. 변경사항이 있는지 확인 후 처리
+          # 변경사항이 있을 때만 푸시
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No 실질적인 데이터 변화가 없어 업데이트를 건너뜁니다."
           else
-            git commit -m "Update stats.svg"
-            # 4. 강제로 밀어넣기 (프로필 통계이므로 강제 업데이트가 가장 깔끔합니다)
+            git commit -m "📊 자동 업데이트: Language Stats SVG"
+            # --force 옵션으로 충돌 없이 강제 업데이트
             git push origin main --force
           fi
