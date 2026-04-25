@@ -22,14 +22,19 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 1. 최신 상태 강제 동기화 (충돌 방지)
+          git fetch origin main
+          git reset --mixed origin main
+          
+          # 2. 파일 추가 및 커밋
           git add stats.svg
           
-          # 변경사항이 있을 때만 커밋
+          # 3. 변경사항이 있는지 확인 후 처리
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Update stats.svg"
-            # 충돌 방지를 위해 먼저 pull을 실행 (rebase 방식)
-            git pull --rebase origin main
-            git push origin main
+            # 4. 강제로 밀어넣기 (프로필 통계이므로 강제 업데이트가 가장 깔끔합니다)
+            git push origin main --force
           fi
