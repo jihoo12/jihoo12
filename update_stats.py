@@ -10,7 +10,8 @@ LANG_COLORS = {
     "Rust": "#dea584", "OCaml": "#ef7a08", "Assembly": "#6E4C13",
     "WGSL": "#42ffc9", "C++": "#f34b7d", "Go": "#00ADD8", "Swift": "#F05138",
     "Shell": "#89e051", "Makefile": "#427819", "Haskell": "#5e5086",
-    "Agda": "#31566a", "CMake": "#064F8C", "Rocq Prover": "#7d503f"
+    "Agda": "#31566a", "CMake": "#064F8C", "Rocq Prover": "#7d503f",
+    "C": "#A8B9CC",
 }
 DEFAULT_COLOR = "#8b949e"
 EXCLUDE = ["Jupyter Notebook", "HTML", "CSS"]
