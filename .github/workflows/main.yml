@@ -48,7 +48,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No 실질적인 데이터 변화가 없어 업데이트를 건너뜁니다."
           else
-            git commit -m "📊 자동 업데이트: Language Stats SVG"
+            git commit -m "update stats.svg"
             # --force 옵션으로 충돌 없이 강제 업데이트
             git push origin main --force
           fi
