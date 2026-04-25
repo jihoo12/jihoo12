@@ -1,0 +1,29 @@
+name: Update Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 매일 자정 실행
+  workflow_dispatch:     # 수동 실행 버튼
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install requests
+        run: pip install requests
+      - name: Run script
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+        run: python update_stats.py
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.svg
+          git commit -m "Update stats.svg" || exit 0
+          git push
