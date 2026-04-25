@@ -86,4 +86,6 @@ if __name__ == "__main__":
     github_stats = get_github_stats()
     if github_stats:
         make_svg(github_stats)
-        print("✅ stats.svg 생성 완료!")
+        print("✅ SVG file has been created successfully!") # 이 로그가 찍히는지 확인
+    else:
+        print("❌ Failed to fetch stats. API token might be invalid.")
