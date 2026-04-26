@@ -1,17 +1,14 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 450 100' width='450px' height='100px'>
-    <rect width='450' height='100' rx='12' ry='12' fill='#1e1e1e' />
-    
-    <circle cx='25' cy='25' r='6' fill='#ff5f56'/>
-    <circle cx='45' cy='25' r='6' fill='#ffbd2e'/>
-    <circle cx='65' cy='25' r='6' fill='#27c93f'/>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 435 50'
+style='background-color: #00000000;' width='435px' height='50px'>
 
-    <text x='25' y='70' font-family='monospace' font-size='24' font-weight='bold' fill='#ea76cb' style='letter-spacing: 2px;'>
-        Hello, I'm Jihoo
-        <animate attributeName='opacity' from='0' to='1' dur='1.5s' fill='freeze' />
-    </text>
-
-    <rect x='25' y='48' width='12' height='26' fill='#ea76cb'>
-        <animate attributeName='x' values='25;265' dur='1.5s' fill='freeze' />
-        <animate attributeName='opacity' values='1;0;1' dur='0.8s' repeatCount='indefinite' />
-    </rect>
+<path id='path0'>
+<animate id='d0' attributeName='d' begin='0s' dur='3000ms' fill='freeze'
+values='m0,25 h0 ; m0,25 h435' keyTimes='0;1' />
+</path>
+<text font-family='monospace' fill='#ea76cb' font-size='20' dominant-baseline='auto' x='0%'
+text-anchor='start' letter-spacing='normal'>
+<textPath xlink:href='#path0'>
+Hello, I'm Jihoo
+</textPath>
+</text>
 </svg>
