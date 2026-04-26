@@ -10,9 +10,8 @@
       font: bold 20px 'Courier New', monospace;
       overflow: hidden;
       white-space: nowrap;
-      /* 커서(border) 설정을 삭제했습니다 */
       animation: 
-        typing 3.5s steps(30, end); /* blink 애니메이션을 삭제했습니다 */
+        typing 3.5s steps(30, end);
     }
     .container {
       display: flex;
