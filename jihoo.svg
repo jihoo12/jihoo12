@@ -1,14 +1,14 @@
-<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 435 50'
-style='background-color: #00000000;' width='435px' height='50px'>
-
-<path id='path0'>
-<animate id='d0' attributeName='d' begin='0s' dur='3000ms' fill='freeze'
-values='m0,25 h0 ; m0,25 h435' keyTimes='0;1' />
-</path>
-<text font-family='monospace' fill='#ea76cb' font-size='20' dominant-baseline='auto' x='0%'
-text-anchor='start' letter-spacing='normal'>
-<textPath xlink:href='#path0'>
-Hello, I'm Jihoo
-</textPath>
-</text>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 435 50' width='435px' height='50px'>
+  <defs>
+    <linearGradient id='grad1' x1='0%' y1='0%' x2='100%' y2='0%'>
+      <stop offset='0%' stop-color='#ea76cb' />
+      <stop offset='100%' stop-color='#6e8efb' />
+    </linearGradient>
+  </defs>
+  <text font-family='monospace' fill='url(#grad1)' font-size='22' x='0' y='35'>
+    Hello, I'm Jihoo
+    <animate attributeName='x' from='-100' to='0' dur='1s' fill='freeze' />
+    <animate attributeName='opacity' from='0' to='1' dur='1s' fill='freeze' />
+  </text>
 </svg>
+
