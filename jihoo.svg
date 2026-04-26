@@ -5,10 +5,9 @@
       <stop offset='100%' stop-color='#6e8efb' />
     </linearGradient>
   </defs>
-  <text font-family='monospace' fill='url(#grad1)' font-size='22' x='0' y='35'>
+  <text font-family='monospace' font-weight='bold' fill='url(#grad1)' font-size='22' x='0' y='32' style='letter-spacing: 1px;'>
     Hello, I'm Jihoo
-    <animate attributeName='x' from='-100' to='0' dur='1s' fill='freeze' />
-    <animate attributeName='opacity' from='0' to='1' dur='1s' fill='freeze' />
+    <animate attributeName='x' from='-30' to='0' dur='1.2s' calcMode='spline' keySplines='0.1, 0.9, 0.2, 1' fill='freeze' />
+    <animate attributeName='opacity' from='0' to='1' dur='1.2s' fill='freeze' />
   </text>
 </svg>
-
