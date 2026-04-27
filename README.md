@@ -1,5 +1,4 @@
 ![Hello, I'm Jihoo](./jihoo.svg)
-I was born in 2007.
 I am interested in OCaml, Haskell, and Agda.  
 I am interested in category theory, type theory, topology, and HoTT.
 ![My Stats](./stats.svg)
