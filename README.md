@@ -5,6 +5,7 @@
 ![ubuntu](./238200433-3fb2cdf6-8920-462e-87a4-95af376418aa.gif)
 ### i daily driving ubuntu
 ![torus](https://raw.githubusercontent.com/jihoo12/learn-agda/refs/heads/main/source/Torus.svg)
+### torus
 <br>
 ![My Stats](./stats.svg)
 ![HoTT](./1777166877257.png)
