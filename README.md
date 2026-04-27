@@ -1,23 +1,23 @@
-![github_logo](./github.gif)
-![Hello, I'm Jihoo](./jihoo.svg)
+![github_logo](./gif/github.gif)
+![Hello, I'm Jihoo](./svg/jihoo.svg)
 ---
-![tao_turn_into_cats](./taoturnintocats.gif)
-![ubuntu](./ubuntu.gif) 
+![tao_turn_into_cats](./gif/taoturnintocats.gif)
+![ubuntu](./gif/ubuntu.gif) 
 ### i daily driving ubuntu
 ---
-![pacman](./pacman.gif)
+![pacman](./gif/pacman.gif)
 ### Jupyter notebook, HTML, and CSS have been excluded from the list. 😀
-![My Stats](./stats.svg)
+![My Stats](./svg/stats.svg)
 ---
 ### I am interested in cubical-agda
-![HoTT](./HoTT.png)
-![code the cool stuff](./codethecoolstuff.gif)
-![menherachan](./menherachan1.gif)
-![frieren](./giphy.gif)
+![HoTT](./otherimages/HoTT.png)
+![code the cool stuff](./gif/codethecoolstuff.gif)
+![menherachan](./gif/menherachan1.gif)
+![frieren](./gif/giphy.gif)
 ---
-![Haskell](./Menhera-chan_LYAHFGG.png)
-![wakamo](./wakamo.jpg)
-![c](./Hakurei_Reimu_Holding_C_Programming_Language.jpg)
+![Haskell](./otherimages/Menhera-chan_LYAHFGG.png)
+![wakamo](./otherimages/wakamo.jpg)
+![c](./otherimages/Hakurei_Reimu_Holding_C_Programming_Language.jpg)
 ---
-![frieren](./frieren.gif)
-![menherachan](./menherachan.gif)
+![frieren](./gif/frieren.gif)
+![menherachan](./gif/menherachan.gif)
