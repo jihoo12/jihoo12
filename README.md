@@ -13,3 +13,4 @@ I am interested in category theory, type theory, topology, and HoTT.
 ![HoTT](./1777166877257.png)
 ![Haskell](./Menhera-chan_LYAHFGG.png)
 ![wakamo](./77f320e927187f7c3a4a0e2445cb8f60.jpg)
+![c](./Hakurei_Reimu_Holding_C_Programming_Language.jpg)
