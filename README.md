@@ -1,7 +1,7 @@
 ![Hello, I'm Jihoo](./jihoo.svg)
 <br>
 ![cat](./238200121-6357eb37-3a0e-4efe-b015-ce8b14e910d6.gif)
-<br>
+### 道
 ![ubuntu](./238200433-3fb2cdf6-8920-462e-87a4-95af376418aa.gif)
 ### i daily driving ubuntu
 ![torus](https://raw.githubusercontent.com/jihoo12/learn-agda/refs/heads/main/source/Torus.svg)
