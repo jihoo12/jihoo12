@@ -7,6 +7,7 @@
 ![torus](https://raw.githubusercontent.com/jihoo12/learn-agda/refs/heads/main/source/Torus.svg)
 ### torus
 ![My Stats](./stats.svg)
+### I am interested in cubical-agda
 ![HoTT](./1777166877257.png)
 ![Haskell](./Menhera-chan_LYAHFGG.png)
 ![wakamo](./77f320e927187f7c3a4a0e2445cb8f60.jpg)
