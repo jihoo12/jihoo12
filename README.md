@@ -1,4 +1,4 @@
-![my name](./jihoo.svg)
+![Hello, I'm Jihoo](./jihoo.svg)
 I am interested in OCaml, Haskell, and Agda.  
 I am interested in category theory, type theory, topology, and HoTT.
 ![My Stats](./stats.svg)
