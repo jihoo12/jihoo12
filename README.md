@@ -6,7 +6,6 @@
 ### i daily driving ubuntu
 ![torus](https://raw.githubusercontent.com/jihoo12/learn-agda/refs/heads/main/source/Torus.svg)
 ### torus
-<br>
 ![My Stats](./stats.svg)
 ![HoTT](./1777166877257.png)
 ![Haskell](./Menhera-chan_LYAHFGG.png)
