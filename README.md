@@ -4,6 +4,7 @@
 
 <details>
 <summary>more about</summary>
+
 ![tao_turn_into_cats](./gif/taoturnintocats.gif)
 ![ubuntu](./gif/ubuntu.gif) 
 ### i daily driving ubuntu
