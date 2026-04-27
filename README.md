@@ -5,6 +5,7 @@
 ![ubuntu](./ubuntu.gif) 
 ### i daily driving ubuntu
 ![pacman](./pacman.gif)
+### Jupyter notebook, HTML, and CSS have been excluded from the list. 😀
 ![My Stats](./stats.svg)
 ### I am interested in cubical-agda
 ![HoTT](./HoTT.png)
