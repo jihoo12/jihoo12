@@ -1,7 +1,9 @@
 ![github_logo](./gif/github.gif)
 ![Hello, I'm Jihoo](./svg/jihoo.svg)
 ---
+
 <details>
+
 ![tao_turn_into_cats](./gif/taoturnintocats.gif)
 ![ubuntu](./gif/ubuntu.gif) 
 ### i daily driving ubuntu
@@ -22,4 +24,5 @@
 ---
 ![frieren](./gif/frieren.gif)
 ![menherachan](./gif/menherachan.gif)
+
 </details>
