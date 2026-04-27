@@ -1,11 +1,14 @@
+![github_logo](./github.gif)
 ![Hello, I'm Jihoo](./jihoo.svg)
 <br>
-![cat](./238200121-6357eb37-3a0e-4efe-b015-ce8b14e910d6.gif)
-![ubuntu](./238200433-3fb2cdf6-8920-462e-87a4-95af376418aa.gif)
+![tao_turn_into_cats](./taoturnintocats.gif)
+![ubuntu](./ubuntu.gif)
 ### i daily driving ubuntu
+![pacman](./pacman.gif)
 ![My Stats](./stats.svg)
 ### I am interested in cubical-agda
-![HoTT](./1777166877257.png)
+![HoTT](./HoTT.png)
+![code the cool stuff](./codethecoolstuff.gif)
 ![Haskell](./Menhera-chan_LYAHFGG.png)
-![wakamo](./77f320e927187f7c3a4a0e2445cb8f60.jpg)
+![wakamo](./wakamo.jpg)
 ![c](./Hakurei_Reimu_Holding_C_Programming_Language.jpg)
