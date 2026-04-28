@@ -13,7 +13,7 @@
 ---
 ![pacman](./gif/pacman.gif)
 ### Jupyter notebook, HTML, and CSS have been excluded from the list. 😀
-![My Stats](./svg/stats.svg)
+![My Stats](./stats.svg)
 ---
 ### I am interested in cubical-agda
 ![HoTT](./otherimages/HoTT.png)
