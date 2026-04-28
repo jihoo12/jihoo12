@@ -7,6 +7,5 @@
   </defs>
   <text font-family='monospace' font-weight='bold' fill='url(#grad1)' font-size='22' x='0' y='32' style='letter-spacing: 1px;'>
     Hello, I'm Jihoo
-    <animate attributeName='opacity' from='0' to='1' dur='1.2s' fill='freeze' />
   </text>
 </svg>
