@@ -1,9 +1,11 @@
 ![github_logo](./gif/github.gif)
 ![Hello, I'm Jihoo](./svg/jihoo.svg)
+![lambda_function](./lambda_function.png)
+![lambda_function1](./lambda_function1.png)
 ---
 
 <details>
-<summary>more about</summary>
+<summary>hello</summary>
 
 ![tao_turn_into_cats](./gif/taoturnintocats.gif)
 ![ubuntu](./gif/ubuntu.gif) 
