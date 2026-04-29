@@ -8,8 +8,6 @@
 <summary>hello</summary>
 
 ![tao_turn_into_cats](./gif/taoturnintocats.gif)
-![ubuntu](./gif/ubuntu.gif) 
-### i daily driving ubuntu
 ---
 ![pacman](./gif/pacman.gif)
 ### Jupyter notebook, HTML, and CSS have been excluded from the list. 😀
