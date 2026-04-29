@@ -2,6 +2,7 @@
 ![Hello, I'm Jihoo](./svg/jihoo.svg)
 ![lambda_function](./lambda_function.png)
 ![lambda_function1](./lambda_function1.png)
+### i daily driving nixos
 ---
 
 <details>
