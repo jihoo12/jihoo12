@@ -1,5 +1,7 @@
 ![nixos](./svg/nix-snowflake-colours.svg)
 ![Hello, I'm Jihoo](./svg/jihoo.svg)
+<br>
+
 ![lambda_function](./otherimages/lambda_function.png)
 ![lambda_function1](./otherimages/lambda_function1.png)
 ### i daily driving nixos
