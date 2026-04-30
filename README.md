@@ -1,13 +1,14 @@
-![github_logo](./gif/github.gif)
+![nixos](./svg/nix-snowflake-colours.svg)
 ![Hello, I'm Jihoo](./svg/jihoo.svg)
-![lambda_function](./lambda_function.png)
-![lambda_function1](./lambda_function1.png)
+![lambda_function](./otherimages/lambda_function.png)
+![lambda_function1](./otherimages/lambda_function1.png)
 ### i daily driving nixos
 ---
 
 <details>
 <summary>hello</summary>
 
+![github_logo](./gif/github.gif)
 ![tao_turn_into_cats](./gif/taoturnintocats.gif)
 ---
 ![pacman](./gif/pacman.gif)
