@@ -28,6 +28,6 @@
 -- sudo nixos-rebuild switch --flake /etc/nixos
 <br>
 -- ΓΝΩΘΙ ΣΕΑΥΤΟΝ
----
+--
 i like <br>.
 you maybe can't see <br>.
