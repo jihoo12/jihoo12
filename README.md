@@ -1,5 +1,10 @@
-# hello i'm jihoo
-- use doom emacs on gnome on nixos
-- interested in cubical agda,org mode,doom emacs
-- need learn org mode,doom emacs,cubical-agda
-- fresh freshman 🤔
+# module jihoo where
+ data Jihoo : Set where
+<br>
+ env : nixos -> gnome -> doom emacs
+<br>
+ interested : cubical agda -> org mode -> doom emacs
+<br>
+ need learn : org mode -> doom emacs -> cubical-agda
+ state : fresh -> freshman 🤔
+
