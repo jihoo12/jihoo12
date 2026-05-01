@@ -1,4 +1,3 @@
-![HoTT](./otherimages/HoTT.png)
 ![Hello, I'm Jihoo](./svg/jihoo.svg)
 <br>
 
