@@ -24,4 +24,6 @@
  state : **fresh** freshman 🤔
 <br>
 -- Start from 0, or 1, that is the question
+<br>
+-- sudo nixos-rebuild switch --flake /etc/nixos
 
