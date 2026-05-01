@@ -1,7 +1,7 @@
 # module jihoo where
  data Jihoo : Set where
 <br>
- os : nixos
+ os : NixOS
 <br>
  texteditor : DoomEmacs
 <br>
