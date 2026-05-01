@@ -1,5 +1,5 @@
 # Hi, I'm Jihoo 👋
-I'm **μωρός** freshman.  
+I'm **μωρός** freshman at korea polytechnics.  
 I'm interested in org mode and agda.  
 I use doom emacs on gnome on nixos.  
 ## important❗️
