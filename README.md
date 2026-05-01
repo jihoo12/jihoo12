@@ -1,11 +1,25 @@
 # module jihoo where
  data Jihoo : Set where
 <br>
- env : nixos -> gnome -> doom emacs
+ os : nixos
 <br>
- interested : cubical agda -> org mode -> doom emacs
+ texteditor : DoomEmacs
 <br>
- need learn : org mode -> doom emacs -> cubical-agda
+ DisplayManager : gdm
 <br>
- state : fresh -> freshman 🤔
+ DesktopEnvironment : gnome
+<br>
+ interested1 : CubicalAgda
+<br>
+ interested2 : OrgMode
+<br>
+ interested3 : DoomEmacs
+<br>
+ NeedLearn1 : CubicalAgda
+<br>
+ NeedLearn2 : OrgMode
+<br>
+ NeedLearn3 : DoomEmacs
+<br>
+ state : fresh freshman 🤔
 
