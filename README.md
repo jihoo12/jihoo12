@@ -6,5 +6,6 @@
  interested : cubical agda -> org mode -> doom emacs
 <br>
  need learn : org mode -> doom emacs -> cubical-agda
+<br>
  state : fresh -> freshman 🤔
 
