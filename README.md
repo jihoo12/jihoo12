@@ -26,4 +26,8 @@
 -- To be, or not to be, that is the question
 <br>
 -- sudo nixos-rebuild switch --flake /etc/nixos
+<br>
 -- ΓΝΩΘΙ ΣΕΑΥΤΟΝ
+---
+i like <br>.
+you maybe can't see <br>.
