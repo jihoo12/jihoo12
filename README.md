@@ -1,4 +1,5 @@
-# module jihoo where
+```agda
+module jihoo where
  data Jihoo : Set where
 <br>
  os : NixOS
@@ -28,8 +29,4 @@
 -- sudo nixos-rebuild switch --flake /etc/nixos
 <br>
 -- ΓΝΩΘΙ ΣΕΑΥΤΟΝ
-
----
-
-i like "<br>".
-you can't see "<br>".
+```
