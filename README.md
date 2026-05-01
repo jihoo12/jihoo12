@@ -22,4 +22,6 @@
  NeedLearn3 : DoomEmacs
 <br>
  state : fresh freshman 🤔
+<br>
+Start from 0, or 1, that is the question
 
