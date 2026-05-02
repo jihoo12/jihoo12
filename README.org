@@ -20,4 +20,6 @@
 - homotopy type theory (HoTT)
 ** hate
 - dvisvgm
+- dependency error
+- compile everything
 [[otherimages/icon_10.png]]
