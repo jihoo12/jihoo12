@@ -18,5 +18,6 @@
 - type theory
 - category theory
 - homotopy type theory (HoTT)
-
+** hate
+- dvisvgm
 [[otherimages/icon_10.png]]
