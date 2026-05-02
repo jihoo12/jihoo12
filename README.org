@@ -18,3 +18,5 @@
 - type theory
 - category theory
 - homotopy type theory (HoTT)
+
+[[otherimages/icon_10.png]]
