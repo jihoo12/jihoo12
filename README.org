@@ -1,0 +1,7 @@
+* Hi, I'm Jihoo 👋
+- I’m freshman at korea polytechnics AI Software Department.
+- I'm interested in org mode and cubical agda.
+- I use doom emacs on gnome on nixos.
+- my code is not a proof.
+- Please do not try to find Curry Howard isomorphisms in my code.
+[[otherimages/icon_10.png]]
