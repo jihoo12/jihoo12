@@ -6,3 +6,15 @@
 - i just interested in HoTT and cubical-agda not formal verification.
 - my code is not a proof.
 - Please do not try to find Curry Howard isomorphisms in my code.
+** i like linux
+- currently use nixos 25.11
+- previously used ubuntu 24.04 lts
+** interested in
+- cubical agda
+- nix
+- doomemacs
+- orgmode
+- topology
+- type theory
+- category theory
+- homotopy type theory (HoTT)
