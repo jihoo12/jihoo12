@@ -22,4 +22,5 @@
 - dvisvgm
 - dependency error
 - compile everything
+-----
 [[otherimages/icon_10.png]]
