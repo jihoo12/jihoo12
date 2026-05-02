@@ -1,5 +1,4 @@
 * Hi, I'm Jihoo 👋
-[[otherimages/icon_67.png]]
 - I'm freshman at korea polytechnics.
 - I'm interested in org mode and agda.
 - I use doom emacs on gnome on nixos.
