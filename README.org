@@ -1,3 +1,6 @@
 * Hi, I'm Jihoo 👋
 - i'm a freshman at korea polytechnics at Ai software department
+- i like cool stuff
+- i use nixos
+- i try use doom emacs
 [[otherimages/icon_10.png]]
