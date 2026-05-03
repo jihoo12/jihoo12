@@ -15,6 +15,6 @@
 
 [[otherimages/icon_10.png]]
 
-*** bug-free-octo-couscous
+*** i like bug-free-octo-couscous
 
 ** timezone Asia/seoul UTC+9
