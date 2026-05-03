@@ -15,4 +15,4 @@
 
 [[otherimages/icon_10.png]]
 
-** timezone Asian/seoul UTC+9
+** timezone Asia/seoul UTC+9
