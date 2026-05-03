@@ -12,6 +12,7 @@
 - Homotopy Type Theory
 - linux
 - org mode
+- AI
 
 [[otherimages/icon_10.png]]
 
