@@ -7,6 +7,9 @@
 - dependently typed language
 - cubical-agda
 - haskell
+- Homotopy Type Theory
+- linux
+- org mode
 
 ** last modified at 2026-05-03
 - timezone Asian/seoul UTC+9
