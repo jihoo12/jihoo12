@@ -1,8 +1,7 @@
 * Hi, I'm Jihoo 👋
 - i'm a freshman at korea polytechnics at Ai software department
-- i like cool stuff
-- i use nixos
-- i use doom emacs
+** i like cool stuff
+
 ** Interests
 - dependently typed language
 - cubical-agda
