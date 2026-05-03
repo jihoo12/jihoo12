@@ -4,4 +4,5 @@
 - i use nixos
 - i use doom emacs
 last modified at 2026-05-03
+timezone Asian/seoul UTC+9
 [[otherimages/icon_10.png]]
