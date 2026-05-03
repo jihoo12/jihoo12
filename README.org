@@ -3,4 +3,5 @@
 - i like cool stuff
 - i use nixos
 - i use doom emacs
+last modified at 2026-05-03
 [[otherimages/icon_10.png]]
