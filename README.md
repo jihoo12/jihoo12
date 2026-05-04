@@ -1,5 +1,4 @@
 # Hi, I'm Jihoo 👋
-- i'm fresh
 - i use nixos, windows
 - i use doom emacs, vim, vscode
 
