@@ -19,7 +19,7 @@
 *** i like AI
 *** i like make something cool
 
-** i'm working(may not) at bug-free-octo-couscous
+** i'm member of bug-free-octo-couscous
 - trying make something using haskell 
 - i need Glue
 
