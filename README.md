@@ -1,13 +1,12 @@
-[[otherimages/icon_10.png]]
-
-* Hi, I'm Jihoo 👋
+![nanasekurumi](otherimages/icon_10.png)
+# Hi, I'm Jihoo 👋
 - i'm a freshman at korea polytechnics at AI software department
 
-** i like cool stuff
+## i like cool stuff
 - i use nixos
 - i use doom emacs & vim & vscode
 
-** Interests
+## Interests
 - dependently typed language
 - cubical-agda
 - haskell
@@ -16,10 +15,10 @@
 - org mode
 - AI
 
-** 😃
+## 😃
 - i like AI
 - i like make something cool
-** i'm member of bug-free-octo-couscous
-[[otherimages/bug-free-octo-couscous.png]]
+## i'm member of bug-free-octo-couscous
+![bug-free-octo-couscous](otherimages/bug-free-octo-couscous.png)
 
-** timezone Asia/seoul UTC+9
+## timezone Asia/seoul UTC+9
