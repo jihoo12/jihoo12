@@ -1,4 +1,4 @@
-# Hi, I'm Jihoo 👋
+# Hi 👋
 - i use nixos, windows
 - i use doom emacs, vim, vscode
 
