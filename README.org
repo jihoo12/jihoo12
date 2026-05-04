@@ -1,7 +1,7 @@
+[[otherimages/icon_10.png]]
+
 * Hi, I'm Jihoo 👋
 - i'm a freshman at korea polytechnics at AI software department
-
-[[otherimages/icon_10.png]]
 
 ** i like cool stuff
 - i use nixos
@@ -16,9 +16,8 @@
 - org mode
 - AI
 
-** I like
-- i like AI
-- i like make something cool
+*** i like AI
+*** i like make something cool
 
 ** i'm working(may not) at bug-free-octo-couscous
 - trying make something using haskell 
