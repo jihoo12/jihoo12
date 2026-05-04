@@ -22,4 +22,6 @@
 * i'm working(may not) at bug-free-octo-couscous
 - trying make something using haskell 
 
+i need Glue
+
 ** timezone Asia/seoul UTC+9
