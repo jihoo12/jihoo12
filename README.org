@@ -20,7 +20,7 @@
 *** i like make something cool
 
 ** i'm member of bug-free-octo-couscous
-- trying make something using haskell 
-- i need Glue
+** trying make something using haskell 
+** i need Glue
 
 ** timezone Asia/seoul UTC+9
