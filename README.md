@@ -1,4 +1,3 @@
-![bug-free-octo-couscous](otherimages/bug-free-octo-couscous.png)
 # Hi, I'm Jihoo 👋
 - i'm a freshman at korea polytechnics at AI software department
 - i use nixos
