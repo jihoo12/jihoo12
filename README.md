@@ -1,8 +1,6 @@
 ![nanasekurumi](otherimages/icon_10.png)
 # Hi, I'm Jihoo 👋
 - i'm a freshman at korea polytechnics at AI software department
-
-## i like cool stuff
 - i use nixos
 - i use doom emacs & vim & vscode
 
