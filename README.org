@@ -5,7 +5,7 @@
 
 ** i like cool stuff
 - i use nixos
-- i use doom emacs
+- i use doom emacs & vim & vscode
 
 ** Interests
 - dependently typed language
