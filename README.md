@@ -1,5 +1,5 @@
 # Hi, I'm Jihoo 👋
-- i use nixos
+- i use nixos,windows
 - i use doom emacs & vim & vscode
 
 ## Interests
