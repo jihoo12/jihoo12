@@ -19,8 +19,7 @@
 ** 😃
 - i like AI
 - i like make something cool
-- i'm member of bug-free-octo-couscous
-- trying make something using haskell 
-- i need Glue
+** i'm member of bug-free-octo-couscous
+[[otherimages/bug-free-octo-couscous.png]]
 
 ** timezone Asia/seoul UTC+9
