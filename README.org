@@ -1,6 +1,8 @@
 * Hi, I'm Jihoo 👋
 - i'm a freshman at korea polytechnics at AI software department
 
+[[otherimages/icon_10.png]]
+
 ** i like cool stuff
 - i use nixos
 - i use doom emacs
@@ -14,8 +16,7 @@
 - org mode
 - AI
 
-[[otherimages/icon_10.png]]
-
+** I like
 - i like AI
 - i like make something cool
 
