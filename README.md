@@ -14,5 +14,3 @@
 ## 😃
 - i like AI
 - i like make something cool
-## i'm member of bug-free-octo-couscous
-![bug-free-octo-couscous](otherimages/bug-free-octo-couscous.png)
