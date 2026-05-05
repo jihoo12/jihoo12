@@ -1,6 +1,6 @@
 # Hi, I'm Jihoo 👋
-- i use nixos, windows
-- i use DoomEmacs, Vim, vscode
+- i use {nixos, windows}
+- i use {DoomEmacs, Vim, vscode}
 
 ## Interests
 - dependently typed language
