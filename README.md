@@ -1,19 +1,4 @@
 # Hi, I'm Jihoo 👋
-- i use {nixos, windows}
-- i use {DoomEmacs, Vim, vscode}
-
-## Interests
-- dependently typed language
-- cubical-agda
-- haskell
-- Homotopy Type Theory
-- linux
-- org mode
-- AI
-
-## 😃
-- i like AI
-- i like make something cool
 
 ## trophy
 ![trophy](https://github-profile-trophy.vercel.app/?username=jihoo12&theme=nord)  
