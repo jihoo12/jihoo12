@@ -28,36 +28,40 @@ def generate_svg(stats, lvl):
     fill_width = int(progress_width * lvl['progress_pct'])
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M UTC")
 
-    # SVG Template with Enhanced "Cool" Styling
+    # Catppuccin Mocha Palette
+    # Base: #1e1e2e, Blue: #89b4fa, Sapphire: #74c7ec, Text: #cdd6f4, Subtext: #a6adc8, Surface: #313244
+    
     svg = f"""
 <svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .header {{ font: 700 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; }}
-    .stat {{ font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }}
-    .value {{ font: 700 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }}
-    .level-badge {{ font: 800 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ffffff; filter: drop-shadow(0 0 5px #58a6ff); }}
-    .small {{ font: 400 10px 'Segoe UI', Ubuntu, Sans-Serif; fill: #484f58; }}
-    .bar-bg {{ fill: #21262d; }}
-    .bar-fill {{ fill: url(#grad); filter: drop-shadow(0 0 3px #58a6ff); }}
+    .header {{ font: 700 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #89b4fa; }}
+    .stat {{ font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a6adc8; }}
+    .value {{ font: 700 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #cdd6f4; }}
+    .level-badge {{ font: 800 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #f5c2e7; filter: drop-shadow(0 0 4px #f5c2e7); }}
+    .small {{ font: 400 10px 'Segoe UI', Ubuntu, Sans-Serif; fill: #585b70; }}
+    .bar-bg {{ fill: #313244; }}
+    .bar-fill {{ fill: url(#grad); }}
   </style>
   
   <defs>
+    <!-- Background Gradient -->
     <linearGradient id="rectGrad" x1="0" y1="0" x2="{width}" y2="{height}" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#161b22"/>
+      <stop stop-color="#1e1e2e"/>
+      <stop offset="1" stop-color="#181825"/>
     </linearGradient>
+    <!-- Progress Bar Gradient (Sapphire to Blue) -->
     <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1f6feb"/>
-      <stop offset="100%" stop-color="#58a6ff"/>
+      <stop offset="0%" stop-color="#74c7ec"/>
+      <stop offset="100%" stop-color="#89b4fa"/>
     </linearGradient>
   </defs>
 
   <!-- Background -->
-  <rect width="{width}" height="{height}" rx="15" fill="url(#rectGrad)" stroke="#30363d" stroke-width="2"/>
+  <rect width="{width}" height="{height}" rx="15" fill="url(#rectGrad)" stroke="#45475a" stroke-width="2"/>
   
   <!-- Header & Level -->
   <text x="30" y="45" class="header">🚀 Dev Rank</text>
-  <text x="350" y="55" class="level-badge">Lv {lvl['level']}</text>
+  <text x="330" y="55" class="level-badge">Lv {lvl['level']}</text>
   
   <!-- Stats Grid -->
   <g transform="translate(30, 80)">
