@@ -20,7 +20,6 @@ jobs:
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: |
-          pip install requests
           python dashboard.py
 
       - name: Commit and Push
