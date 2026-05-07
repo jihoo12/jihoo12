@@ -55,8 +55,12 @@ def update_readme(username):
 ### 📊 Developer Stats
 | Metric | Value |
 | :--- | :--- |
-| **Level** | {lvl['level']} |
-| **XP** | {lvl['xp']} / {lvl['next_lvl_base']} |
+| **Current Level** | {lvl['level']} |
+| **Total XP** | {lvl['xp']} / {lvl['next_lvl_base']} |
+| **Commits** | {stats['totalCommitContributions']} |
+| **PRs** | {stats['totalPullRequestContributions']} |
+| **Reviews** | {stats['totalPullRequestReviewContributions']} |
+| **Issues** | {stats['totalIssueContributions']} |
 | **Stars** | {total_stars} |
 
 **Progress:** `Level {lvl['level']}` **[{bar}]** `Level {lvl['level'] + 1}`
