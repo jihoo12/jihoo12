@@ -7,12 +7,16 @@
 ### 📊 Developer Stats
 | Metric | Value |
 | :--- | :--- |
-| **Level** | 10 |
-| **XP** | 1188 / 1210 |
+| **Current Level** | 10 |
+| **Total XP** | 1189 / 1210 |
+| **Commits** | 1057 |
+| **PRs** | 17 |
+| **Reviews** | 0 |
+| **Issues** | 1 |
 | **Stars** | 23 |
 
-**Progress:** `Level 10` **[█████████████████░░░]** `Level 11`
-*Last updated: 2026-05-07 04:02:34 UTC*
+**Progress:** `Level 10` **[██████████████████░░]** `Level 11`
+*Last updated: 2026-05-07 04:05:18 UTC*
 
 <!-- END_SECTION:dashboard -->
 
