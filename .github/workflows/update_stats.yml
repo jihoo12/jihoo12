@@ -33,8 +33,6 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             github-snake.svg
-        # Note: I removed "dist/" so it saves directly to your root folder
-
       # --- Updated Commit Step ---
       - name: Commit and Push Changes
         run: |
