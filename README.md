@@ -1,6 +1,7 @@
 # Hi, I'm Jihoo 👋
-## bug-free-octo-couscous
-[![bug-free-octo-couscous](bug-free-octo-couscous.png)](https://github.com/bug-free-octo-couscous)
-
+### learn
+[![bug-free-octo-couscous](octo.png)](https://github.com/bug-free-octo-couscous)
+[![fantastic-doodle](fantastic-doodle.jpeg)](https://github.com/fantastic-doodle)
+---
 ![My Stats](stats.svg)
 ![snk](github-snake.svg)
