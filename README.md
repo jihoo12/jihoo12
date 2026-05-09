@@ -7,4 +7,3 @@
 [![fantastic-doodle](fantastic-doodle.jpeg)](https://github.com/fantastic-doodle)
 ---
 ![My Stats](stats.svg)
-![snk](github-snake.svg)
