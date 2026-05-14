@@ -33,13 +33,13 @@
   <!-- Stats Grid -->
   <g transform="translate(30, 80)">
     <text y="0" class="stat">Commits</text>
-    <text x="100" y="0" class="value">1223</text>
+    <text x="100" y="0" class="value">1229</text>
     
     <text y="30" class="stat">PRs</text>
-    <text x="100" y="30" class="value">30</text>
+    <text x="100" y="30" class="value">31</text>
     
     <text y="60" class="stat">Reviews</text>
-    <text x="100" y="60" class="value">0</text>
+    <text x="100" y="60" class="value">1</text>
 
     <text x="200" y="0" class="stat">Issues</text>
     <text x="280" y="0" class="value">1</text>
@@ -48,13 +48,13 @@
     <text x="280" y="30" class="value">20</text>
     
     <text x="200" y="60" class="stat">Total XP</text>
-    <text x="280" y="60" class="value">1414</text>
+    <text x="280" y="60" class="value">1429</text>
   </g>
 
   <!-- Progress Bar -->
   <text x="30" y="180" class="stat">Progress to Lvl 12</text>
   <rect x="25" y="190" width="400" height="12" rx="6" class="bar-bg"/>
-  <rect x="25" y="190" width="354" height="12" rx="6" class="bar-fill"/>
+  <rect x="25" y="190" width="380" height="12" rx="6" class="bar-fill"/>
   
-  <text x="30" y="225" class="small">Updated 2026-05-14 01:59 UTC</text>
+  <text x="30" y="225" class="small">Updated 2026-05-14 09:01 UTC</text>
 </svg>
