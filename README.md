@@ -1,4 +1,4 @@
 ![bocchi](bocchi.jpg)
-[![bug-free-octo-couscous](octo_big.png)](https://github.com/bug-free-octo-couscous)
-[![fantastic-doodle](dragon.jpeg)](https://github.com/fantastic-doodle)
+[![bug-free-octo-couscous](bug-free-octo-couscous.jpg)](https://github.com/bug-free-octo-couscous)
+[![fantastic-doodle](dragon.jpg)](https://github.com/fantastic-doodle)
 ---
