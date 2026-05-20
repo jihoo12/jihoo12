@@ -1,6 +1,6 @@
 ![bocchi](bocchi.jpg)
-[bug-free-octo-couscous](https://github.com/bug-free-octo-couscous) |
-[jihoo website](https://jihoo12.github.io/)
+[my website](https://jihoo12.github.io/) | 
+[octo website](https://bug-free-octo-couscous.github.io/)
 ---
 # repository
 * [Ploty](https://github.com/jihoo12/ploty)
