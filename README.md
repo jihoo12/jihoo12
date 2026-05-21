@@ -2,7 +2,7 @@
 [my website](https://jihoo12.github.io/) | 
 [octo website](https://bug-free-octo-couscous.github.io/)
 ---
-# repository ᕦ(😀)ᕤ
+## repository ᕦ(😀)ᕤ
 * [ai RAG](https://github.com/jihoo12/ai-RAG)
 * [haskell blockchain](https://github.com/jihoo12/haskell-blockchain)
 * [mylang](https://github.com/jihoo12/mylang)
