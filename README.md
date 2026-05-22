@@ -3,6 +3,7 @@
 [octo website](https://bug-free-octo-couscous.github.io/)
   
 <details>
+  
 # repository ᕦ(😀)ᕤ
 * [ai RAG](https://github.com/jihoo12/ai-RAG)
 * [haskell blockchain](https://github.com/jihoo12/haskell-blockchain)
