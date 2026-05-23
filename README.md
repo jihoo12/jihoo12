@@ -22,11 +22,11 @@
 
 ## learn ᕦ(😀)ᕤ
 
-* [learn-agda](https://www.google.com/search?q=https://github.com/jihoo12/learn-agda-new)
-* [learn-category-theory](https://www.google.com/search?q=https://github.com/jihoo12/learn-category-theory)
-* [learn-go](https://www.google.com/search?q=https://github.com/jihoo12/learn-go)
-* [learn-haskell](https://www.google.com/search?q=https://github.com/jihoo12/learn-haskell)
-* [learn-ocaml](https://www.google.com/search?q=https://github.com/jihoo12/learn-ocaml)
-* [learn-rocq](https://www.google.com/search?q=https://github.com/jihoo12/learn-rocq)
-* [learn-type-theory](https://www.google.com/search?q=https://github.com/jihoo12/learn-type-theory)
+* [learn-agda](https://github.com/jihoo12/learn-agda-new)
+* [learn-category-theory](https://github.com/jihoo12/learn-category-theory)
+* [learn-go](https://github.com/jihoo12/learn-go)
+* [learn-haskell](https://github.com/jihoo12/learn-haskell)
+* [learn-ocaml](https://github.com/jihoo12/learn-ocaml)
+* [learn-rocq](https://github.com/jihoo12/learn-rocq)
+* [learn-type-theory](https://github.com/jihoo12/learn-type-theory)
 </details>
