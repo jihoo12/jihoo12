@@ -4,7 +4,7 @@
   
 <details>
   
-# repository ᕦ(😀)ᕤ
+## repository ᕦ(😀)ᕤ
 * [ai RAG](https://github.com/jihoo12/ai-RAG)
 * [haskell blockchain](https://github.com/jihoo12/haskell-blockchain)
 * [mylang](https://github.com/jihoo12/mylang)
@@ -19,4 +19,8 @@
 * [vii](https://github.com/jihoo12/vii)
 * [vm](https://github.com/jihoo12/vm)
 * [widget](https://github.com/jihoo12/widget)
+
+## learn ᕦ(😀)ᕤ
+
+
 </details>
