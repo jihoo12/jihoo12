@@ -1,7 +1,7 @@
 ![bocchi](bocchi.jpg)
 [my website](https://jihoo12.github.io/) | 
-[octo website](https://bug-free-octo-couscous.github.io/)
-  
+[octo website](https://bug-free-octo-couscous.github.io/) |
+[texboard](https://texboard.pages.dev)
 <details>
   
 ## repository ᕦ(😀)ᕤ
