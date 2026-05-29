@@ -20,6 +20,7 @@
 * [vm](https://github.com/jihoo12/vm)
 * [widget](https://github.com/jihoo12/widget)
 * [TexBoard](https://github.com/jihoo12/Texboard)
+* [nota](https://github.com/jihoo12/nota)
 
 ## learn ᕦ(😀)ᕤ
 
