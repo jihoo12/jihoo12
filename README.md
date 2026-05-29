@@ -7,6 +7,7 @@
 * [ai RAG](https://github.com/jihoo12/ai-RAG)
 * [haskell blockchain](https://github.com/jihoo12/haskell-blockchain)
 * [mylang](https://github.com/jihoo12/mylang)
+* [nota](https://github.com/jihoo12/nota)
 * [oas](https://github.com/jihoo12/oas)
 * [octo](https://github.com/bug-free-octo-couscous/octo)
 * [ploty](https://github.com/jihoo12/ploty)
@@ -14,12 +15,11 @@
 * [ros](https://github.com/jihoo12/ros)
 * [rust wgpu 2d physics](https://github.com/jihoo12/rust-wgpu-2d-physics)
 * [SSG](https://github.com/jihoo12/SSG)
+* [TexBoard](https://github.com/jihoo12/Texboard)
 * [tinyasm](https://github.com/jihoo12/tinyasm)
 * [vii](https://github.com/jihoo12/vii)
 * [vm](https://github.com/jihoo12/vm)
 * [widget](https://github.com/jihoo12/widget)
-* [TexBoard](https://github.com/jihoo12/Texboard)
-* [nota](https://github.com/jihoo12/nota)
 
 ## learn ᕦ(😀)ᕤ
 
