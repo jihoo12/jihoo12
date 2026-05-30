@@ -7,7 +7,6 @@
 * [ai RAG](https://github.com/jihoo12/ai-RAG)
 * [haskell blockchain](https://github.com/jihoo12/haskell-blockchain)
 * [mylang](https://github.com/jihoo12/mylang)
-* [nota](https://github.com/jihoo12/nota)
 * [oas](https://github.com/jihoo12/oas)
 * [octo](https://github.com/bug-free-octo-couscous/octo)
 * [ploty](https://github.com/jihoo12/ploty)
