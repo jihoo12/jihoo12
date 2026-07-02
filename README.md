@@ -7,7 +7,5 @@
   </a>
 </div>
 
-[![Commitment Issues: @jihoo12's graveyard](https://commitmentissues.dev/api/badge?username=jihoo12&v=3&frame=1)](https://commitmentissues.dev/user/jihoo12)
-
 ### freshman
 [my website](https://jihoo12.github.io) 
