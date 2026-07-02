@@ -9,7 +9,5 @@
 
 [![Commitment Issues: @jihoo12's graveyard](https://commitmentissues.dev/api/badge?username=jihoo12&v=3&frame=1)](https://commitmentissues.dev/user/jihoo12)
 
-[![GitHub Stats Terminal](https://github-stats-terminal-style-five.vercel.app/api/stats?username=jihoo12&theme=dracula&headerStyle=retro&typingSpeed=80&hostname=github.com&commands=whoami%2Cneofetch%2Clanguages%2Cuptime%2Cexit)](https://github.com/jihoo12)
-
 ### freshman
 [my website](https://jihoo12.github.io) 
