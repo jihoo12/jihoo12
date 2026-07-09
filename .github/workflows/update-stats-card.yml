@@ -1,0 +1,58 @@
+name: Update GitHub Stats Card
+
+# Regenerates the stats card and commits it back to the repo, so the image
+# embedded in README.md always stays up to date.
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # once a day at 00:00 UTC — edit to taste
+  workflow_dispatch: {}     # lets you trigger it manually from the Actions tab
+  push:
+    branches: [main]        # optional: also refresh on every push to main
+    paths:
+      - ".github/scripts/github_stats_card.py"
+
+permissions:
+  contents: write            # needed so the workflow can commit the updated card
+
+jobs:
+  update-card:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests cairosvg
+
+      - name: Generate stats card
+        env:
+          # GITHUB_TOKEN is provided automatically by Actions. If you hit
+          # permission errors on the commit/PR/issue counts (they use the
+          # GraphQL API), create a classic Personal Access Token with just
+          # "read:user" scope, save it as a repo secret named STATS_TOKEN,
+          # and swap the line below for: ${{ secrets.STATS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/scripts/github_stats_card.py "${{ github.repository_owner }}" \
+            --token "$GH_TOKEN" \
+            --theme dark \
+            -o assets/github-stats.svg \
+            -f svg
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update GitHub stats card"
+            git push
+          else
+            echo "No changes to commit."
+          fi
