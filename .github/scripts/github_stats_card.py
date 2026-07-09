@@ -32,6 +32,7 @@ Embed in README.md:
 
 import argparse
 import base64
+import os
 import sys
 from datetime import datetime, timezone
 
@@ -507,6 +508,10 @@ def main():
 
     svg_code = build_svg(stats, theme_name=args.theme)
     out_path = args.output or f"{args.username}_stats.{args.format}"
+
+    out_dir = os.path.dirname(out_path)
+    if out_dir:
+        os.makedirs(out_dir, exist_ok=True)
 
     if args.format == "svg":
         with open(out_path, "w", encoding="utf-8") as f:
