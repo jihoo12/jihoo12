@@ -36,6 +36,8 @@
 </p>
 
 ---
+![:jihoo12](https://count.getloli.com/@:jihoo12?theme=capoo-2)
+---
 
 <p align="center">
   <img src="./assets/github-stats.svg" alt="GitHub Stats" />
