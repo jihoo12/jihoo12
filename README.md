@@ -12,17 +12,6 @@
 
 ---
 
-### 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
-</p>
-
----
-
 ### 📊 GitHub Stats
 
 <p align="center">
@@ -61,7 +50,3 @@
 </p>
 
 ---
-
-<p align="center">
-  <img src="./assets/github-stats.svg" alt="GitHub Stats" />
-</p>
