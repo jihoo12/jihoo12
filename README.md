@@ -41,6 +41,7 @@
   </tr>
    <tr>
       <td align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/commit-by-day-of-week?username=jihoo12&theme=ocean_dark"/>
     </td>
       <td align = "center">      
         <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jihoo12&theme=ocean_dark"/>
