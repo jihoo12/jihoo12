@@ -36,6 +36,16 @@
 </p>
 
 ---
+<p align="center">
+  <a href="https://github.com/kavicastelo">
+    <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.vercel.app/?username=jihoo12&theme=radical&no-frame=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.vercel.app/?username=jihoo12&no-frame=true" />
+    <img width=800 alt="troophy" src="troophy.svg"  style="display:block; margin:auto;"/>
+    </picture>
+  </a>
+</p>
+---
 
 <p align="center">
   <img src="./assets/github-stats.svg" alt="GitHub Stats" />
