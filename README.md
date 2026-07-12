@@ -40,7 +40,6 @@
 ### troophy
 
 <p align="center">
-  <a href="https://github.com/jihoo12">
     <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.vercel.app/?username=jihoo12&theme=radical&no-frame=true" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.vercel.app/?username=jihoo12&no-frame=true" />
