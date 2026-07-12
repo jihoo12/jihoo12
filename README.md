@@ -14,18 +14,40 @@
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=jihoo12&theme=gruvbox&hide_border=true&count_private=true&show=prs_merged_percentage&include_all_commits=true&orgs=dladio" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jihoo12&theme=2077&hide_border=true" alt="Profile Details" width="49%" />
-  <img src="https://awesome-github-stats.azurewebsites.net/user-stats/jihoo12?cardType=level-alternate&theme=tokyonight&preferLogin=true" alt="Level Stats" width="49%" />
-</p>
-
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jihoo12&theme=ocean_dark" alt="Most Commit Language" />
-</p>
+<table border="0">
+  <tr>    
+    <td align="center"> 
+      <img src="https://github-readme-stats-one-bice.vercel.app/api?username=jihoo12&theme=gruvbox&show_icons=true&hide_border=true&count_private=true&show=prs_merged_percentage&include_all_commits=true&orgs=dladio" />
+    </td>
+    <td align="center">
+       <div>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=jihoo12&theme=tokyonight&hide_border=true">
+      </div>
+    </td>  
+  </tr>
+  
+  <tr>
+     <td colspan="2" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jihoo12&theme=2077&hide_border=true"/>
+    </td>
+  </tr>
+  <tr>
+      <td align="center">
+        <img src= "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jihoo12&theme=gruvbox&hide_border=true"/>
+    </td>
+      <td align = "center">      
+        <img src="https://awesome-github-stats.azurewebsites.net/user-stats/jihoo12?cardType=level-alternate&theme=tokyonight&preferLogin=true"/>
+    </td> 
+  </tr>
+   <tr>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=jihoo12&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&show=prs_merged_percentage&org=dladio"/>
+    </td>
+      <td align = "center">      
+        <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jihoo12&theme=ocean_dark"/>
+    </td> 
+  </tr>
+</table> 
 
 ---
 
