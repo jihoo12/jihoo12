@@ -21,7 +21,7 @@
     </td>
     <td align="center">
        <div>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=jihoo12&theme=tokyonight&hide_border=true">
+        [![GitHub Streak](https://streak-stats.demolab.com/?user=jihoo12)](https://git.io/streak-stats)
       </div>
     </td>  
   </tr>
