@@ -37,14 +37,6 @@
   </tr>
   <tr>
       <td align="center">
-        <img src= "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jihoo12&theme=gruvbox&hide_border=true"/>
-    </td>
-      <td align = "center">      
-        <img src="https://awesome-github-stats.azurewebsites.net/user-stats/jihoo12?cardType=level-alternate&theme=tokyonight&preferLogin=true"/>
-    </td> 
-  </tr>
-   <tr>
-      <td align="center">
       <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=jihoo12&layout=compact&theme=ocean_dark&hide_border=true" />
     </td>
       <td align = "center">      
