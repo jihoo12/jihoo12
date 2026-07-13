@@ -1,5 +1,9 @@
 <h1 align="center">Hi 👋, I'm jihoo</h1>
 
+<p align="cneter">
+  <img src="assets/github-stats.svg">
+</p>
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jihoo12&theme=react-dark&hide_border=true&area=true" alt="jihoo's github activity graph" width="100%"/>
 </p>
