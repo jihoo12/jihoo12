@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm jihoo</h1>
+
 
 <p align="center">
   <img src="assets/github-stats.svg">
