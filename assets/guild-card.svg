@@ -70,7 +70,7 @@
       <text x="292" y="230" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="0.5"
         fill="#4a3c26">INT</text>
       <text x="530" y="230" font-family="Consolas, Menlo, monospace" font-size="11" font-weight="700"
-        text-anchor="end" fill="#2a2013">263</text>
+        text-anchor="end" fill="#2a2013">271</text>
       <rect x="292" y="237" width="238" height="7" rx="3.5" fill="rgba(42,32,19,0.15)"/>
       <rect x="292" y="237" width="238" height="7" rx="3.5" fill="url(#barGradient)"/>
     </g>
@@ -104,7 +104,7 @@
 <line x1="30" y1="340" x2="530" y2="340" stroke="rgba(42,32,19,0.2)" stroke-width="1"/>
 
       <text x="92.5" y="366" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-weight="700"
-        font-size="16" fill="#2a2013">89</text>
+        font-size="16" fill="#2a2013">93</text>
       <text x="92.5" y="380" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="8.5"
         letter-spacing="0.5" fill="#4a3c26">QUESTS LOGGED</text>
 
