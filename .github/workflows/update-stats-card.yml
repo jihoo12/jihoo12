@@ -1,7 +1,7 @@
 name: Update GitHub Stats Card
 
-# Regenerates the stats card and commits it back to the repo, so the image
-# embedded in README.md always stays up to date.
+# Regenerates the stats card and the guild card, and commits them back to
+# the repo, so the images embedded in README.md always stay up to date.
 
 on:
   schedule:
@@ -11,6 +11,7 @@ on:
     branches: [main]        # optional: also refresh on every push to main
     paths:
       - ".github/scripts/github_stats_card.py"
+      - ".github/scripts/generate-card.js"
 
 permissions:
   contents: write            # needed so the workflow can commit the updated card
@@ -45,13 +46,25 @@ jobs:
             -o assets/github-stats.svg \
             -f svg
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate guild card
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUTPUT_SVG: assets/guild-card.svg
+        run: node .github/scripts/generate-card.js
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/github-stats.svg
+          git add assets/github-stats.svg assets/guild-card.svg README.md
           if ! git diff --cached --quiet; then
-            git commit -m "chore: update GitHub stats card"
+            git commit -m "chore: update GitHub stats card and guild card"
             git push
           else
             echo "No changes to commit."
