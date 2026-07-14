@@ -71,4 +71,6 @@
 
 ### guild license
 
-![jihoo12's Guild Card](./assets/guild-card.svg)
+<p align="center">
+  <img src="assets/guild-card.svg">
+</p>
