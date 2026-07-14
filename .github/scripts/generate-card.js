@@ -23,10 +23,6 @@ const USERNAME =
   (process.env.GITHUB_REPOSITORY ? process.env.GITHUB_REPOSITORY.split('/')[0] : null);
 
 const OUTPUT_SVG = process.env.OUTPUT_SVG || 'guild-card.svg';
-const README_PATH = process.env.README_PATH || 'README.md';
-
-const MARKER_START = '<!-- GUILD-CARD:START -->';
-const MARKER_END = '<!-- GUILD-CARD:END -->';
 
 if (!USERNAME) {
   console.error('No username provided. Set GITHUB_USERNAME or pass one as an argument.');
@@ -382,33 +378,6 @@ function buildSvg({ user, profile }, avatarDataUri) {
 </svg>`;
 }
 
-// ---------- README injection ----------
-
-function updateReadme(readmePath, imageMarkdown) {
-  let content = '';
-  let existed = false;
-  try {
-    content = fs.readFileSync(readmePath, 'utf8');
-    existed = true;
-  } catch (err) {
-    content = `# ${path.basename(process.cwd())}\n`;
-  }
-
-  const block = `${MARKER_START}\n${imageMarkdown}\n${MARKER_END}`;
-
-  if (content.includes(MARKER_START) && content.includes(MARKER_END)) {
-    const startIdx = content.indexOf(MARKER_START);
-    const endIdx = content.indexOf(MARKER_END) + MARKER_END.length;
-    content = content.slice(0, startIdx) + block + content.slice(endIdx);
-  } else {
-    const sep = content.endsWith('\n') ? '\n' : '\n\n';
-    content = `${content}${sep}${block}\n`;
-  }
-
-  fs.writeFileSync(readmePath, content, 'utf8');
-  console.log(existed ? `Updated ${readmePath}` : `Created ${readmePath}`);
-}
-
 // ---------- main ----------
 
 async function main() {
@@ -426,9 +395,7 @@ async function main() {
   fs.writeFileSync(OUTPUT_SVG, svg, 'utf8');
   console.log(`Wrote ${OUTPUT_SVG} (rank ${profile.rank}, class ${profile.className})`);
 
-  const imageMarkdown = `![${esc(user.login)}'s Guild Card](./${OUTPUT_SVG})`;
-  updateReadme(README_PATH, imageMarkdown);
-}
+  }
 
 main().catch((err) => {
   console.error('Guild card generation failed:', err.message);

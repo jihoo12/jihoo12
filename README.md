@@ -69,6 +69,6 @@
 
 ---
 
-<!-- GUILD-CARD:START -->
+### guild license
+
 ![jihoo12's Guild Card](./assets/guild-card.svg)
-<!-- GUILD-CARD:END -->
