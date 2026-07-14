@@ -68,3 +68,7 @@
 </p>
 
 ---
+
+<!-- GUILD-CARD:START -->
+![jihoo12's Guild Card](./assets/guild-card.svg)
+<!-- GUILD-CARD:END -->
