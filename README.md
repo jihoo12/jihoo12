@@ -1,16 +1,18 @@
-<p align="center">
-  <img src="assets/github-stats.svg">
-</p>
-
-<p align="center">
-  <a href="https://jihoo12.github.io">
-    <img src="https://img.shields.io/badge/🌐_Website-000000?style=for-the-badge" alt="Website" />
-  </a>
-</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jihoo12&theme=react-dark&hide_border=true&area=true" alt="jihoo's github activity graph" width="100%"/>
 </p>
+
+<table border="0">
+  <tr>
+    <td colspan="2" align="center">
+      <img src="assets/github-stats.svg">
+    </td>
+    <td colspan="2" align="center">
+      <img src="assets/guild-card.svg">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -64,8 +66,4 @@
 
 ---
 
-### 🎖️ Guild Card
 
-<p align="center">
-  <img src="assets/guild-card.svg">
-</p>
