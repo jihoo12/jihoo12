@@ -55,5 +55,5 @@
 
 ### profile views count
  
-<img src="https://count.getloli.com/@:jihoo12?theme=miku">
+<img src="https://count.getloli.com/@:jihoo12?theme=normal-2">
 
