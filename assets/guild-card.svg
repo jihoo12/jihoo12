@@ -52,7 +52,7 @@
         fill="#4a3c26">misfire. 3 years into their journey, they are a name spoken of in every guild</text>
 
       <text x="44" y="174" font-family="Georgia, serif" font-size="13"
-        fill="#4a3c26">hall — 3 travelers have marked their deeds with a star, and 3,071</text>
+        fill="#4a3c26">hall — 5 travelers have marked their deeds with a star, and 3,093</text>
 
       <text x="44" y="191" font-family="Georgia, serif" font-size="13"
         fill="#4a3c26">contributions are etched into the ledger.</text>
@@ -61,16 +61,16 @@
       <text x="30" y="230" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="0.5"
         fill="#4a3c26">STR</text>
       <text x="268" y="230" font-family="Consolas, Menlo, monospace" font-size="11" font-weight="700"
-        text-anchor="end" fill="#2a2013">5</text>
+        text-anchor="end" fill="#2a2013">8</text>
       <rect x="30" y="237" width="238" height="7" rx="3.5" fill="rgba(42,32,19,0.15)"/>
-      <rect x="30" y="237" width="7.933333333333334" height="7" rx="3.5" fill="url(#barGradient)"/>
+      <rect x="30" y="237" width="12.693333333333333" height="7" rx="3.5" fill="url(#barGradient)"/>
     </g>
 
     <g>
       <text x="292" y="230" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="0.5"
         fill="#4a3c26">INT</text>
       <text x="530" y="230" font-family="Consolas, Menlo, monospace" font-size="11" font-weight="700"
-        text-anchor="end" fill="#2a2013">267</text>
+        text-anchor="end" fill="#2a2013">271</text>
       <rect x="292" y="237" width="238" height="7" rx="3.5" fill="rgba(42,32,19,0.15)"/>
       <rect x="292" y="237" width="238" height="7" rx="3.5" fill="url(#barGradient)"/>
     </g>
@@ -88,7 +88,7 @@
       <text x="292" y="262" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="0.5"
         fill="#4a3c26">LUK</text>
       <text x="530" y="262" font-family="Consolas, Menlo, monospace" font-size="11" font-weight="700"
-        text-anchor="end" fill="#2a2013">1</text>
+        text-anchor="end" fill="#2a2013">2</text>
       <rect x="292" y="269" width="238" height="7" rx="3.5" fill="rgba(42,32,19,0.15)"/>
       <rect x="292" y="269" width="4" height="7" rx="3.5" fill="url(#barGradient)"/>
     </g>
@@ -97,29 +97,29 @@
       <text x="30" y="294" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="0.5"
         fill="#4a3c26">CON</text>
       <text x="268" y="294" font-family="Consolas, Menlo, monospace" font-size="11" font-weight="700"
-        text-anchor="end" fill="#2a2013">154</text>
+        text-anchor="end" fill="#2a2013">155</text>
       <rect x="30" y="301" width="238" height="7" rx="3.5" fill="rgba(42,32,19,0.15)"/>
       <rect x="30" y="301" width="238" height="7" rx="3.5" fill="url(#barGradient)"/>
     </g>
 <line x1="30" y1="340" x2="530" y2="340" stroke="rgba(42,32,19,0.2)" stroke-width="1"/>
 
       <text x="92.5" y="366" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-weight="700"
-        font-size="16" fill="#2a2013">91</text>
+        font-size="16" fill="#2a2013">93</text>
       <text x="92.5" y="380" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="8.5"
         letter-spacing="0.5" fill="#4a3c26">QUESTS LOGGED</text>
 
       <text x="217.5" y="366" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-weight="700"
-        font-size="16" fill="#2a2013">1</text>
+        font-size="16" fill="#2a2013">2</text>
       <text x="217.5" y="380" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="8.5"
         letter-spacing="0.5" fill="#4a3c26">ALLIES</text>
 
       <text x="342.5" y="366" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-weight="700"
-        font-size="16" fill="#2a2013">3</text>
+        font-size="16" fill="#2a2013">5</text>
       <text x="342.5" y="380" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="8.5"
         letter-spacing="0.5" fill="#4a3c26">RENOWN</text>
 
       <text x="467.5" y="366" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-weight="700"
-        font-size="16" fill="#2a2013">3,071</text>
+        font-size="16" fill="#2a2013">3,093</text>
       <text x="467.5" y="380" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="8.5"
         letter-spacing="0.5" fill="#4a3c26">CONTRIBUTIONS</text>
 
