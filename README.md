@@ -3,17 +3,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jihoo12&theme=react-dark&hide_border=true&area=true" alt="jihoo's github activity graph" width="100%"/>
 </p>
 
-<table border="0">
-  <tr>
-    <td colspan="2" align="center">
-      <img src="assets/github-stats.svg">
-    </td>
-    <td colspan="2" align="center">
-      <img src="assets/guild-card.svg">
-    </td>
-  </tr>
-</table>
-
 ---
 
 ### 📊 GitHub Stats
@@ -38,6 +27,17 @@
     </td>
     <td align="center">
       <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jihoo12&theme=ocean_dark"/>
+    </td>
+  </tr>
+</table>
+
+<table border="0">
+  <tr>
+    <td colspan="2" align="center">
+      <img src="assets/github-stats.svg">
+    </td>
+    <td colspan="2" align="center">
+      <img src="assets/guild-card.svg">
     </td>
   </tr>
 </table>
