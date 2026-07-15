@@ -53,7 +53,5 @@
 
 ---
 
-### profile views count
- 
-<img src="https://count.getloli.com/@:jihoo12?theme=normal-2">
+<img src="https://count.getloli.com/@:jihoo12?theme=sketch-1">
 
