@@ -55,5 +55,5 @@
 
 ### profile view count
 <p align="center">
-<img src="https://count.getloli.com/@:jihoo12?theme=sketch-1">
+<img src="https://count.getloli.com/@:jihoo12">
 </p>
