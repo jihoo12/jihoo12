@@ -58,6 +58,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.vercel.app/?username=jihoo12&theme=radical&no-frame=true" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.vercel.app/?username=jihoo12&no-frame=true" />
+    <img width="800" alt="trophy" src="trophy.svg" style="display:block; margin:auto;" />
   </picture>
 </p>
 
