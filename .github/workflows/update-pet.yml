@@ -32,8 +32,8 @@ jobs:
           # data, but a PAT is more reliable for the GraphQL contributionsCollection
           # field on some account/privacy settings. See README for setup.
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-          PET_OUTPUT_PATH: pet.svg
-        run: node .github/scripts/index.js
+          PET_OUTPUT_PATH: assets/pet.svg
+        run: node .github/scripts/pet/index.js
 
       - name: Commit updated pet
         run: |
