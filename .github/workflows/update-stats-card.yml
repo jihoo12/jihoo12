@@ -38,7 +38,7 @@ jobs:
           # GraphQL API), create a classic Personal Access Token with just
           # "read:user" scope, save it as a repo secret named STATS_TOKEN,
           # and swap the line below for: ${{ secrets.STATS_TOKEN }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           python .github/scripts/github_stats_card.py "${{ github.repository_owner }}" \
             --token "$GH_TOKEN" \
@@ -54,7 +54,7 @@ jobs:
       - name: Generate guild card
         env:
           GITHUB_USERNAME: ${{ github.repository_owner }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
           OUTPUT_SVG: assets/guild-card.svg
         run: node .github/scripts/generate-card.js
 
