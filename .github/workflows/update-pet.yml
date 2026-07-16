@@ -33,7 +33,7 @@ jobs:
           # field on some account/privacy settings. See README for setup.
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           PET_OUTPUT_PATH: pet.svg
-        run: node scripts/index.js
+        run: node .github/scripts/index.js
 
       - name: Commit updated pet
         run: |
