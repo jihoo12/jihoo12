@@ -39,6 +39,6 @@ jobs:
         run: |
           git config user.name "tamagotchi-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add pet.svg
+          git add assets/pet.svg
           git diff --quiet --cached || git commit -m "chore: update tamagotchi pet [skip ci]"
           git push
