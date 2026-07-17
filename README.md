@@ -53,5 +53,4 @@
 
 ---
 
-<img src="https://count.getloli.com/@jihoo12?name=jihoo12&theme=miku&padding=10&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt":jihoo12" />
-
+<img src="https://count.getloli.com/@:jihoo12?theme=miku" alt=":jihoo12" />
