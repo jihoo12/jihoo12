@@ -58,6 +58,9 @@
 <img src="https://count.getloli.com/@:jihoo12?theme=miku" alt=":jihoo12" />
 </p>
 
+### TODO
+
+make something with mcp
 <!--
 <p>I'm <span class="accent">Jihoo</span> — an undergraduate who lives and breathes systems-level code. My main languages are <span class="accent">Rust</span>, <span class="accent">C++</span>, <span class="accent">C</span>, and <span class="accent">Astro</span>, and I'm happiest when I'm deep in a compiler or poking around inside an operating system kernel. You can find me on <a class="link" href="https://github.com/jihoo12" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
       <p>My day-to-day machines both run <span class="accent">NixOS</span> with <span class="accent">niri</span> and <span class="accent">noctalia shell</span> — laptop and desktop, same setup. Nix is more than a package manager to me; it's how I think about reproducibility and system design. Beyond that, I'm fascinated by <span class="accent">compilers</span> and language implementation, <span class="accent">AI agents</span> and how they're reshaping the way we write software, <span class="accent">Lisp</span> and its family of languages, and <span class="accent">Cubical type theory</span> — which sits at this beautiful intersection of type theory, homotopy theory, and constructive mathematics that I find endlessly compelling.</p>
