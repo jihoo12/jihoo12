@@ -1,7 +1,6 @@
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jihoo12&theme=react-dark&hide_border=true&area=true" alt="jihoo's github activity graph" width="100%"/>
-</p>
+### bonsai tree
+![kodama tree for jihoo12](https://kodama-sigma.vercel.app/jihoo12.svg?theme=sakura)
 
 ---
 
