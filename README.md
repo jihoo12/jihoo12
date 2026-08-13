@@ -1,9 +1,4 @@
 
-### 🌳 bonsai tree
-![kodama tree for jihoo12](https://kodama-sigma.vercel.app/jihoo12.svg?theme=sakura)
-
----
-
 ### 🐾 My Contribution Farm
 
 <p align="center">
