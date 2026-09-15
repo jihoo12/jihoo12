@@ -1,101 +1,53 @@
-<!--
-  This README is not a résumé.
-  It is a small, mildly unreliable museum exhibit.
-
-  Please do not feed the divs.
--->
+<!-- if you're reading the source: hello. -->
 
 <div align="center">
 
 # jihoo12
 
-<sup>an unidentified process occupying a small region of GitHub</sup>
+### I build things to find out what happens.
 
-<br>
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-**SPECIMEN 01**
-
-`human`
-
-probably
-
-</td>
-<td width="33%" align="center">
-
-**LAST SEEN**
-
-inside a text editor
-
-</td>
-<td width="33%" align="center">
-
-**THREAT LEVEL**
-
-`rm -rf node_modules`
-
-</td>
-</tr>
-</table>
+<sub>developer · experimenter · occasional bug manufacturer</sub>
 
 </div>
 
 ---
 
-### FIELD NOTES / 12
+### about
 
-> We gave the subject a computer.
->
-> It immediately began arranging invisible numbers into rectangles.
->
-> When asked why, the subject replied: **"wait, I have an idea."**
->
-> We have not heard from it since.
+I enjoy turning vague ideas into things I can run, break, inspect, and improve.
 
-<br>
+My favorite projects usually start with **"what if..."** and end somewhere I didn't expect.  
+I learn by building first, then figuring out why it worked — or why it absolutely didn't.
 
-```text
-                         .----------------.
-                    .---'                  '---.
-                 .-'                            '-.
-                /                                  \
-               |          idea enters here          |
-                \                                  /
-                 '-.                            .-'
-                    '---.                  .---'
-                         '-------.  .-------'
-                                  \/
-                                  ||
-                                  ||
-                                  \/
-                         +------------------+
-                         |   questionable   |
-                         |    decisions     |
-                         +--------+---------+
-                                  |
-                         +--------v---------+
-                         |   working code   |
-                         |   (sometimes)    |
-                         +------------------+
+```diff
+- wait until I know enough
++ start, learn, adjust
+
+- make everything perfect
++ make something interesting
 ```
 
+### currently
+
+```text
+exploring      new ideas
+building      small experiments
+learning      whatever the experiment demands
+optimizing    for curiosity
+```
+
+### operating principles
+
+`01` — Build to understand.  
+`02` — Prefer experiments over assumptions.  
+`03` — Small improvements compound.  
+`04` — A weird idea that works is still a working idea.  
+`05` — Leave room for the frog.
+
 <details>
-<summary><b>DO NOT OPEN</b></summary>
+<summary><b>the frog</b></summary>
 
 <br>
-
-You opened it.
-
-There is no tech stack here.
-
-No row of colorful badges.
-
-No percentage claiming I am `87% JavaScript`.
-
-Just this frog.
 
 ```text
        _   _
@@ -111,62 +63,22 @@ The frog has reviewed your pull request.
 
 **changes requested**
 
+<sub>reason: insufficient whimsy</sub>
+
 </details>
 
 ---
 
-### INVENTORY
-
-| object | quantity | condition |
-|:--|:--:|:--|
-| unfinished ideas | 14-ish | multiplying |
-| tabs | `???` | load-bearing |
-| bugs I understand | 2 | endangered |
-| bugs I created | classified | thriving |
-| `console.log` | several | strategically placed |
-| motivation at 2:17 AM | 100% | suspicious |
-
----
-
-### AN EXCERPT FROM THE SOURCE CODE
-
-```diff
-- wait until I know enough
-+ start before I know enough
-
-- avoid making mistakes
-+ make interesting mistakes
-
-- someday
-+ git commit -m "try it"
-```
-
-<br>
-
 <div align="center">
-
-### ◌
-
-There should probably be something impressive here.
-
-Instead, here is the number of people who accidentally wandered into this exhibit:
 
 <img src="https://count.getloli.com/@:jihoo12?theme=miku" alt="Profile views" />
 
+<sub>people who wandered through here</sub>
+
 <br><br>
 
-`[ you are here ]`
-
-```text
-YOU ────────────────●─────────────── THE REST OF THE INTERNET
-                    ↑
-               strange choice
-```
-
-<br>
-
-<sub>please exit through the gift shop</sub>
+`build → break → understand → repeat`
 
 </div>
 
-<!-- if you're reading the source: hello. this is the gift shop. -->
+<!-- the frog stays. -->
