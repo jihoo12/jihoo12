@@ -1,73 +1,172 @@
-<div align="center">
+<!--
+  This README is not a résumé.
+  It is a small, mildly unreliable museum exhibit.
 
-# `jihoo12@github:~$ whoami`
-
-### building things, breaking things, learning why.
-
-```text
-┌──────────────────────────────────────────────────┐
-│                                                  │
-│   curiosity  ████████████████████████  100%      │
-│   caffeine   ███████████████░░░░░░░░░   63%      │
-│   bugs       ███████░░░░░░░░░░░░░░░░░   ∞       │
-│                                                  │
-│   status: probably coding something unnecessary │
-│                                                  │
-└──────────────────────────────────────────────────┘
-```
-
-</div>
-
-## `> cat about.txt`
-
-I like the moment when an idea stops being a thought  
-and starts doing something on a screen.
-
-I build to understand.  
-I break things to understand them better.  
-Sometimes I even remember to write documentation.
-
-```js
-const jihoo12 = {
-  mode: "learning-by-building",
-  interests: ["code", "experiments", "new ideas"],
-  currently: "turning ??? into !",
-  motto: "ship → learn → improve → repeat"
-};
-```
-
-## `> ls ./mindset`
-
-```text
-./mindset
-├── curiosity.md
-├── make-it-work-first.txt
-├── why-did-that-work.log
-├── one-more-refactor.js
-└── ideas/
-    └── definitely-not-too-many/
-```
-
-## `> uptime`
+  Please do not feed the divs.
+-->
 
 <div align="center">
 
-<img src="https://count.getloli.com/@:jihoo12?theme=miku" alt="Profile views" />
+# jihoo12
 
-<sub>tiny proof that someone made it this far ↑</sub>
+<sup>an unidentified process occupying a small region of GitHub</sup>
+
+<br>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+**SPECIMEN 01**
+
+`human`
+
+probably
+
+</td>
+<td width="33%" align="center">
+
+**LAST SEEN**
+
+inside a text editor
+
+</td>
+<td width="33%" align="center">
+
+**THREAT LEVEL**
+
+`rm -rf node_modules`
+
+</td>
+</tr>
+</table>
 
 </div>
 
 ---
 
-<div align="center">
+### FIELD NOTES / 12
+
+> We gave the subject a computer.
+>
+> It immediately began arranging invisible numbers into rectangles.
+>
+> When asked why, the subject replied: **"wait, I have an idea."**
+>
+> We have not heard from it since.
+
+<br>
 
 ```text
-$ echo "Thanks for visiting."
-Thanks for visiting.
-$ _
+                         .----------------.
+                    .---'                  '---.
+                 .-'                            '-.
+                /                                  \
+               |          idea enters here          |
+                \                                  /
+                 '-.                            .-'
+                    '---.                  .---'
+                         '-------.  .-------'
+                                  \/
+                                  ||
+                                  ||
+                                  \/
+                         +------------------+
+                         |   questionable   |
+                         |    decisions     |
+                         +--------+---------+
+                                  |
+                         +--------v---------+
+                         |   working code   |
+                         |   (sometimes)    |
+                         +------------------+
 ```
 
-<sub>README compiled successfully with 0 warnings and questionable amounts of personality.</sub>
+<details>
+<summary><b>DO NOT OPEN</b></summary>
+
+<br>
+
+You opened it.
+
+There is no tech stack here.
+
+No row of colorful badges.
+
+No percentage claiming I am `87% JavaScript`.
+
+Just this frog.
+
+```text
+       _   _
+      (.)_(.)
+   _ (   _   ) _
+  / \/`-----'\/ \
+__\ ( (     ) ) /__
+)   /\ \._./ /\   (
+ )_/ /|\   /|\ \_(
+```
+
+The frog has reviewed your pull request.
+
+**changes requested**
+
+</details>
+
+---
+
+### INVENTORY
+
+| object | quantity | condition |
+|:--|:--:|:--|
+| unfinished ideas | 14-ish | multiplying |
+| tabs | `???` | load-bearing |
+| bugs I understand | 2 | endangered |
+| bugs I created | classified | thriving |
+| `console.log` | several | strategically placed |
+| motivation at 2:17 AM | 100% | suspicious |
+
+---
+
+### AN EXCERPT FROM THE SOURCE CODE
+
+```diff
+- wait until I know enough
++ start before I know enough
+
+- avoid making mistakes
++ make interesting mistakes
+
+- someday
++ git commit -m "try it"
+```
+
+<br>
+
+<div align="center">
+
+### ◌
+
+There should probably be something impressive here.
+
+Instead, here is the number of people who accidentally wandered into this exhibit:
+
+<img src="https://count.getloli.com/@:jihoo12?theme=miku" alt="Profile views" />
+
+<br><br>
+
+`[ you are here ]`
+
+```text
+YOU ────────────────●─────────────── THE REST OF THE INTERNET
+                    ↑
+               strange choice
+```
+
+<br>
+
+<sub>please exit through the gift shop</sub>
 
 </div>
+
+<!-- if you're reading the source: hello. this is the gift shop. -->
