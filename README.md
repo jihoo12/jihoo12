@@ -1,33 +1,73 @@
 <div align="center">
 
-# 👋 Hi, I'm jihoo12
+# `jihoo12@github:~$ whoami`
 
-### Developer · Builder · Learner
+### building things, breaking things, learning why.
 
-<br/>
+```text
+┌──────────────────────────────────────────────────┐
+│                                                  │
+│   curiosity  ████████████████████████  100%      │
+│   caffeine   ███████████████░░░░░░░░░   63%      │
+│   bugs       ███████░░░░░░░░░░░░░░░░░   ∞       │
+│                                                  │
+│   status: probably coding something unnecessary │
+│                                                  │
+└──────────────────────────────────────────────────┘
+```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Welcome%20to%20my%20GitHub&fontSize=36&fontAlignY=35" alt="Welcome to my GitHub" />
+</div>
 
-<br/>
+## `> cat about.txt`
 
-## ✨ About Me
+I like the moment when an idea stops being a thought  
+and starts doing something on a screen.
 
-🌱 I'm a developer who grows by continuously learning and building things myself.  
-💡 I enjoy exploring new technologies and turning ideas into code.  
-🚀 I believe that even small improvements add up when you keep moving forward.
+I build to understand.  
+I break things to understand them better.  
+Sometimes I even remember to write documentation.
 
-<br/>
+```js
+const jihoo12 = {
+  mode: "learning-by-building",
+  interests: ["code", "experiments", "new ideas"],
+  currently: "turning ??? into !",
+  motto: "ship → learn → improve → repeat"
+};
+```
 
-## ⭐ Profile Views
+## `> ls ./mindset`
+
+```text
+./mindset
+├── curiosity.md
+├── make-it-work-first.txt
+├── why-did-that-work.log
+├── one-more-refactor.js
+└── ideas/
+    └── definitely-not-too-many/
+```
+
+## `> uptime`
+
+<div align="center">
 
 <img src="https://count.getloli.com/@:jihoo12?theme=miku" alt="Profile views" />
 
-<br/>
+<sub>tiny proof that someone made it this far ↑</sub>
+
+</div>
 
 ---
 
-### 💬 Thanks for stopping by!
+<div align="center">
 
-<sub>Keep building. Keep learning. Keep moving forward. 🚀</sub>
+```text
+$ echo "Thanks for visiting."
+Thanks for visiting.
+$ _
+```
+
+<sub>README compiled successfully with 0 warnings and questionable amounts of personality.</sub>
 
 </div>
