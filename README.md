@@ -1,4 +1,4 @@
-<!-- if you're reading the source: hello. -->
+<!-- I was going to write a normal README. anyway— -->
 
 <div align="center">
 
@@ -6,7 +6,7 @@
 
 ### I build things to find out what happens.
 
-<sub>developer · experimenter · occasional bug manufacturer</sub>
+<sub>developer · experimenter · wait, that's a good idea actually</sub>
 
 </div>
 
@@ -14,38 +14,63 @@
 
 ### about
 
-I enjoy turning vague ideas into things I can run, break, inspect, and improve.
+I like turning **"what if...?"** into **"oh, it works."**
 
-My favorite projects usually start with **"what if..."** and end somewhere I didn't expect.  
-I learn by building first, then figuring out why it worked — or why it absolutely didn't.
+Usually the process looks something like this:
 
-```diff
-- wait until I know enough
-+ start, learn, adjust
-
-- make everything perfect
-+ make something interesting
+```text
+idea
+  ↓
+research
+  ↓
+another idea ──────────────┐
+  ↓                        │
+prototype                  │
+  ↓                        │
+wait what was I doing?     │
+  ↓                        │
+fix one tiny thing         │
+  ↓                        │
+rewrite half of it ←───────┘
+  ↓
+works somehow
+  ↓
+✨ new idea ✨
 ```
+
+I learn by building, poking at things, following interesting side quests,  
+and occasionally returning to the original task.
 
 ### currently
 
-```text
-exploring      new ideas
-building      small experiments
-learning      whatever the experiment demands
-optimizing    for curiosity
+`building` something small that may become something large  
+`learning` whatever I needed five minutes ago  
+`thinking about` three unrelated ideas simultaneously  
+`browser tabs` yes  
+`TODO` write a better TODO
+
+> **note to self:** finish this section later
+>
+> update: apparently this *is* the section now.
+
+### things that make sense to me
+
+```diff
++ experiments over assumptions
++ curiosity over pretending I already know
++ shipping small things
++ changing my mind when the code proves me wrong
++ weird ideas with suspiciously good potential
+
+- waiting for the perfect moment
+- naming things
+- estimating how long "one small change" will take
 ```
 
-### operating principles
-
-`01` — Build to understand.  
-`02` — Prefer experiments over assumptions.  
-`03` — Small improvements compound.  
-`04` — A weird idea that works is still a working idea.  
-`05` — Leave room for the frog.
+### anyway, here's a frog
 
 <details>
-<summary><b>the frog</b></summary>
+<summary><b>🐸 important infrastructure — click to inspect</b></summary>
 
 <br>
 
@@ -63,9 +88,21 @@ The frog has reviewed your pull request.
 
 **changes requested**
 
-<sub>reason: insufficient whimsy</sub>
+<sub>reason: you forgot why you opened this PR</sub>
 
 </details>
+
+### oh right, where were we?
+
+My general strategy:
+
+```text
+start → get curious → detour → learn something →
+        ↑                              ↓
+        └──── somehow useful ←─────────┘
+```
+
+I don't really mind taking the scenic route if I come back knowing more than I left with.
 
 ---
 
@@ -73,12 +110,18 @@ The frog has reviewed your pull request.
 
 <img src="https://count.getloli.com/@:jihoo12?theme=miku" alt="Profile views" />
 
-<sub>people who wandered through here</sub>
+<sub>people who got distracted here too</sub>
 
 <br><br>
 
-`build → break → understand → repeat`
+`build → wander → discover → remember → build`
+
+<br>
+
+<sub>okay I'm done editing this README now.</sub><br>
+<sub>probably.</sub>
 
 </div>
 
-<!-- the frog stays. -->
+<!-- TODO: resist adding another section -->
+<!-- TODO: failed -->
