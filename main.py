@@ -22,13 +22,16 @@ FPS = 20
 SECONDS = 4
 TOTAL_FRAMES = FPS * SECONDS
 
-OUTPUT = "jihoo-impact.webp"
+OUTPUT = "jihoo-ambient-rainbow.webp"
 WEBP_QUALITY = 75
 
 BG = (13, 17, 23)
 
-GREEN = (57, 211, 83)
-LIGHT_GREEN = (126, 231, 135)
+# Ambient rainbow palette
+RAINBOW = [
+    (139, 92, 246),   # violet
+    (96, 165, 250),   # blue
+]
 
 # 충돌/바닥 기준 위치
 GROUND_Y = 245
@@ -160,6 +163,55 @@ def mix_color(a, b, amount):
     )
 
 
+def rainbow_color(x, shift=0.0):
+    # Smooth horizontal ambient rainbow.
+    p = (x / WIDTH + shift) % 1.0
+    scaled = p * (len(RAINBOW) - 1)
+    i = int(scaled)
+    f = scaled - i
+
+    if i >= len(RAINBOW) - 1:
+        return RAINBOW[-1]
+
+    # Smoothstep makes transitions softer than linear interpolation.
+    f = f * f * (3 - 2 * f)
+    return mix_color(RAINBOW[i], RAINBOW[i + 1], f)
+
+
+def make_rainbow_gradient(shift=0.0, alpha=255):
+    gradient = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+    px = gradient.load()
+
+    for x in range(WIDTH):
+        c = rainbow_color(x, shift)
+        for y in range(HEIGHT):
+            px[x, y] = c + (alpha,)
+
+    return gradient
+
+
+def draw_gradient_text(layer, x, y, alpha=255, shift=0.0, squash=1.0):
+    # Render the text as a mask, then reveal the ambient rainbow through it.
+    text_mask = Image.new("L", (WIDTH, HEIGHT), 0)
+    d = ImageDraw.Draw(text_mask)
+    d.text((x, y), NAME, font=FONT, fill=alpha)
+
+    if squash != 1.0:
+        box = text_mask.getbbox()
+        if box:
+            crop = text_mask.crop(box)
+            new_h = max(1, int(crop.height * squash))
+            crop = crop.resize((crop.width, new_h), Image.Resampling.LANCZOS)
+            text_mask = Image.new("L", (WIDTH, HEIGHT), 0)
+            paste_x = int(CENTER_X - crop.width / 2)
+            paste_y = int(GROUND_Y - new_h)
+            text_mask.paste(crop, (paste_x, paste_y))
+
+    gradient = make_rainbow_gradient(shift, 255)
+    gradient.putalpha(text_mask)
+    layer.alpha_composite(gradient)
+
+
 # ============================================================
 # TIMELINE
 #
@@ -214,14 +266,12 @@ def draw_falling_name(
 
     if t < IMPACT_TIME:
 
-        draw.text(
-            (
-                TARGET_X,
-                y,
-            ),
-            NAME,
-            font=FONT,
-            fill=GREEN + (255,),
+        draw_gradient_text(
+            layer,
+            TARGET_X,
+            y,
+            alpha=255,
+            shift=t * 0.10,
         )
 
         return
@@ -246,60 +296,13 @@ def draw_falling_name(
             + amount * 0.35
         )
 
-        temp = Image.new(
-            "RGBA",
-            (
-                text_width + 20,
-                text_height + 20,
-            ),
-            (0, 0, 0, 0),
-        )
-
-        temp_draw = ImageDraw.Draw(temp)
-
-        temp_draw.text(
-            (
-                10 - bbox[0],
-                10 - bbox[1],
-            ),
-            NAME,
-            font=FONT,
-            fill=GREEN + (
-                int(
-                    255
-                    * (1 - amount)
-                ),
-            ),
-        )
-
-        new_height = max(
-            1,
-            int(
-                temp.height
-                * squash
-            ),
-        )
-
-        temp = temp.resize(
-            (
-                temp.width,
-                new_height,
-            ),
-            Image.Resampling.LANCZOS,
-        )
-
-        layer.alpha_composite(
-            temp,
-            (
-                int(
-                    CENTER_X
-                    - temp.width / 2
-                ),
-                int(
-                    GROUND_Y
-                    - new_height
-                ),
-            ),
+        draw_gradient_text(
+            layer,
+            TARGET_X,
+            TARGET_Y,
+            alpha=int(255 * (1 - amount)),
+            shift=t * 0.10,
+            squash=squash,
         )
 
 
@@ -442,10 +445,13 @@ def draw_particles(
 
         brightness = p["brightness"]
 
+        # Keep the color from the particle's original position in the word.
+        base_color = rainbow_color(p["x"], shift=t * 0.10)
+
         color = (
-            int(GREEN[0] * brightness),
-            int(GREEN[1] * brightness),
-            int(GREEN[2] * brightness),
+            int(base_color[0] * brightness),
+            int(base_color[1] * brightness),
+            int(base_color[2] * brightness),
             alpha,
         )
 
@@ -464,6 +470,8 @@ def draw_particles(
         # 일부 입자만 glow
         if p["brightness"] > 0.9:
 
+            glow_color = rainbow_color(p["x"], shift=t * 0.10)
+
             glow_draw.ellipse(
                 (
                     x - 5,
@@ -471,12 +479,7 @@ def draw_particles(
                     x + 5,
                     y + 5,
                 ),
-                fill=(
-                    LIGHT_GREEN[0],
-                    LIGHT_GREEN[1],
-                    LIGHT_GREEN[2],
-                    int(alpha * 0.3),
-                ),
+                fill=glow_color + (int(alpha * 0.3),),
             )
 
 
@@ -510,21 +513,23 @@ def draw_impact_flash(
         * (1 - progress)
     )
 
-    # 충돌 중심 glow
-    draw.ellipse(
-        (
-            CENTER_X - radius,
-            GROUND_Y - radius / 3,
-            CENTER_X + radius,
-            GROUND_Y + radius / 3,
-        ),
-        fill=(
-            LIGHT_GREEN[0],
-            LIGHT_GREEN[1],
-            LIGHT_GREEN[2],
-            alpha,
-        ),
-    )
+    # Layer several translucent rainbow ellipses for an ambient impact glow.
+    band_count = 9
+    for i in range(band_count):
+        p = i / max(1, band_count - 1)
+        cx = CENTER_X - radius + (2 * radius * p)
+        c = rainbow_color(cx, shift=t * 0.10)
+        band_radius = radius * 0.42
+
+        draw.ellipse(
+            (
+                cx - band_radius,
+                GROUND_Y - radius / 3,
+                cx + band_radius,
+                GROUND_Y + radius / 3,
+            ),
+            fill=c + (max(1, alpha // 3),),
+        )
 
 
 # ============================================================
@@ -637,7 +642,7 @@ def render(frame_index):
 # ============================================================
 
 print()
-print("Generating JIHOO impact animation...")
+print("Generating JIHOO ambient rainbow impact animation...")
 print()
 
 frames = []
