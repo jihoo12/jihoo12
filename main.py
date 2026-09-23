@@ -15,8 +15,8 @@ import random
 
 NAME = "jihoo"
 
-WIDTH = 400 
-HEIGHT = 160
+WIDTH = 800
+HEIGHT = 320
 
 FPS = 20
 SECONDS = 4
