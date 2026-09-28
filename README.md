@@ -46,3 +46,5 @@
     </td>
   </tr>
 </table>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=jihoo12&langs_count=4&theme=ambient_gradient" alt="Top Langs" />
+<img src="https://github-stats-extended.vercel.app/api?username=jihoo12&theme=ambient_gradient" alt="Anurag's GitHub stats" />
