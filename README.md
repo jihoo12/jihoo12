@@ -1,3 +1,5 @@
+<div align="center">
+
 <table>
   <tr>
     <td>
@@ -11,7 +13,6 @@
       </a>
     </td>
   </tr>
-
   <tr>
     <td>
       <a href="https://github.com/jihoo12/shady">
@@ -24,7 +25,6 @@
       </a>
     </td>
   </tr>
-
   <tr>
     <td>
       <a href="https://github.com/jihoo12/tinyasm">
@@ -37,7 +37,6 @@
       </a>
     </td>
   </tr>
-
   <tr>
     <td colspan="2" align="center">
       <a href="https://github.com/jihoo12/pi-lisp-revive">
@@ -46,5 +45,18 @@
     </td>
   </tr>
 </table>
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=jihoo12&langs_count=4&theme=ambient_gradient" alt="Top Langs" />
-<img src="https://github-stats-extended.vercel.app/api?username=jihoo12&theme=ambient_gradient" alt="Anurag's GitHub stats" />
+
+<br />
+
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=jihoo12&langs_count=4&theme=ambient_gradient" alt="Top Languages" />
+<img src="https://github-stats-extended.vercel.app/api?username=jihoo12&theme=ambient_gradient" alt="GitHub Stats" />
+
+<br /><br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jihoo12/jihoo12/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jihoo12/jihoo12/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/jihoo12/jihoo12/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
