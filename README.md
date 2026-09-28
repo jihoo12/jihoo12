@@ -62,4 +62,7 @@
 </div>
 <details>
   <summary>images</summary>
+  <img src="bocchi.jpg"/>
+  <img src="wakamo.jpg"/>
+  <img src="bangdream.jpg"/>
 </details>
