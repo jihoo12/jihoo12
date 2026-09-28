@@ -60,3 +60,6 @@
 </picture>
 
 </div>
+<details>
+  <summary>images</summary>
+</details>
