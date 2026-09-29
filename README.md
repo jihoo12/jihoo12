@@ -43,6 +43,11 @@
         <img src="https://github-stats-extended.vercel.app/api/pin/?username=jihoo12&repo=faust&theme=ambient_gradient" />
       </a>
     </td>
+    <td>
+      <a href="https://github.com/jihoo12/hokkaido-revive">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=jihoo12&repo=hokkaido-revive&theme=ambient_gradient" />
+      </a>
+    </td>
   </tr>
 </table>
 
