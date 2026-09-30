@@ -55,11 +55,6 @@
         <img src="https://github-stats-extended.vercel.app/api/pin/?username=jihoo12&repo=kamo2&theme=ambient_gradient" />
       </a>
     </td>
-    <td>
-      <a href="https://github.com/jihoo12/naru">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=jihoo12&repo=naru&theme=ambient_gradient" />
-      </a>
-    </td>
   </tr>
 </table>
 
