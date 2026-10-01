@@ -1,5 +1,5 @@
 <div align="center">
-vibe coding
+<img src="vibe-coding.webp">
 <table>
   <tr>
     <td>
