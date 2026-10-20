@@ -5,7 +5,8 @@ Profile SVG generator — "Unknown Pleasures" style.
 Renders a small family of SVGs for a GitHub profile README:
 
     hero     wordmark + a kernel-style boot log + the last 30 days as one pulse
-    work     one card per pinned repo, with a barcode of its weekly commits
+    work     one card per busiest repo of the last 30 days (pins fill the gaps),
+             with a barcode of its weekly commits
     signal   the year in ridgelines (below)
     footer   end-of-transmission rule
 
@@ -85,7 +86,11 @@ class Project:
     commits: dict[dt.date, int] = field(default_factory=dict)   # last year, per day
 
 
-# Hand-written one-liners for pinned repos; anything missing falls back to
+# How many project cards, and the window that decides which repos get them.
+CARDS = 4
+ACTIVE_DAYS = 30
+
+# Hand-written one-liners for featured repos; anything missing falls back to
 # the repo description. (kind, blurb)
 BLURBS = {
     "jihoo": ("LANGUAGE", "An easy programming language with three profiles."),
@@ -93,13 +98,14 @@ BLURBS = {
     "shady": ("COMPOSITOR", "An experimental 3D Wayland compositor built on wlroots."),
     "horn": ("LOGIC", "Checks derivation certificates for first-order Horn theories."),
     "kamo2": ("TYPE THEORY", "A cubical, dependently typed functional language."),
+    "faust": ("LANGUAGE", "Systems language with explicit syscall contracts, to LLVM IR."),
     "tinyasm": ("ASSEMBLER", "x86-64 assembler + JIT: from mnemonics to mmap'd bytes."),
     "swan": ("ENGINE", "C++20 / Vulkan 1.3 game engine with an editor and Lua."),
 }
 
 
 QUERY = """
-query($login: String!) {
+query($login: String!, $since: DateTime!) {
   user(login: $login) {
     login
     name
@@ -108,15 +114,12 @@ query($login: String!) {
     followers { totalCount }
     pinnedItems(first: 6, types: REPOSITORY) {
       nodes {
-        ... on Repository {
-          name url description stargazerCount pushedAt
-          primaryLanguage { name }
-        }
+        ... on Repository { ...card }
       }
     }
     contributionsCollection {
       commitContributionsByRepository(maxRepositories: 100) {
-        repository { name }
+        repository { nameWithOwner }
         contributions(first: 100, orderBy: {field: OCCURRED_AT, direction: DESC}) {
           nodes { occurredAt commitCount }
         }
@@ -124,6 +127,12 @@ query($login: String!) {
       contributionCalendar {
         totalContributions
         weeks { contributionDays { date contributionCount } }
+      }
+    }
+    recent: contributionsCollection(from: $since) {
+      commitContributionsByRepository(maxRepositories: 100) {
+        contributions { totalCount }
+        repository { ...card }
       }
     }
     repositories(first: 100, ownerAffiliations: OWNER, isFork: false,
@@ -137,6 +146,12 @@ query($login: String!) {
       }
     }
   }
+}
+
+fragment card on Repository {
+  name nameWithOwner url description stargazerCount pushedAt
+  isPrivate isFork isArchived
+  primaryLanguage { name }
 }
 """
 
@@ -152,10 +167,35 @@ def resolve_token() -> str | None:
         return None
 
 
+def is_meta(repo: dict, login: str) -> bool:
+    """The profile README and the websites get commits daily without being projects."""
+    name = repo["name"].lower()
+    return name == login.lower() or name.endswith(".github.io")
+
+
+def pick_repos(login: str, recent: list[dict], pinned: list[dict]) -> list[dict]:
+    """Busiest public repos over the last ACTIVE_DAYS, then pins to fill the rest."""
+    active = sorted(
+        (e for e in recent if e["contributions"]["totalCount"] > 0),
+        key=lambda e: -e["contributions"]["totalCount"],
+    )
+    picks, seen = [], set()
+    for repo in [e["repository"] for e in active] + pinned:
+        if (repo["nameWithOwner"] in seen or repo["isPrivate"] or repo["isFork"]
+                or repo["isArchived"] or is_meta(repo, login)):
+            continue
+        if not repo["description"] and repo["name"].lower() not in BLURBS:
+            continue                      # nothing to write on the card
+        picks.append(repo)
+        seen.add(repo["nameWithOwner"])
+    return picks[:CARDS]
+
+
 def fetch_profile(login: str, token: str) -> Profile:
+    since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=ACTIVE_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
     req = urllib.request.Request(
         "https://api.github.com/graphql",
-        data=json.dumps({"query": QUERY, "variables": {"login": login}}).encode(),
+        data=json.dumps({"query": QUERY, "variables": {"login": login, "since": since}}).encode(),
         headers={"Authorization": f"bearer {token}", "Content-Type": "application/json",
                  "User-Agent": "profile-svg"},
     )
@@ -181,7 +221,7 @@ def fetch_profile(login: str, token: str) -> Profile:
     languages = sorted(((k, v / total_bytes) for k, v in lang_bytes.items()), key=lambda kv: -kv[1])
 
     by_repo = {
-        entry["repository"]["name"]: {
+        entry["repository"]["nameWithOwner"]: {
             dt.date.fromisoformat(n["occurredAt"][:10]): n["commitCount"]
             for n in entry["contributions"]["nodes"]
         }
@@ -193,9 +233,10 @@ def fetch_profile(login: str, token: str) -> Profile:
             language=(r["primaryLanguage"] or {}).get("name", ""),
             stars=r["stargazerCount"],
             pushed=dt.date.fromisoformat(r["pushedAt"][:10]),
-            commits=by_repo.get(r["name"], {}),
+            commits=by_repo.get(r["nameWithOwner"], {}),
         )
-        for r in user["pinnedItems"]["nodes"] if r
+        for r in pick_repos(login, user["recent"]["commitContributionsByRepository"],
+                            [r for r in user["pinnedItems"]["nodes"] if r])
     ]
 
     return Profile(
@@ -710,7 +751,7 @@ def main() -> None:
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
-    for stale in out.glob("work-*.svg"):      # pins may have changed
+    for stale in out.glob("work-*.svg"):      # the busiest repos change
         stale.unlink()
     for theme in THEMES:
         files = {
