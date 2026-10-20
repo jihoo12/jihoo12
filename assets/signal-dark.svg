@@ -7,8 +7,6 @@
   .label { font-size: 9.5px; fill: #5c6069; letter-spacing: .16em; }
   .val { font-size: 15px; fill: #ece7df; font-weight: 500; }
   .unit { font-size: 9.5px; fill: #5c6069; }
-  /* base styles are the final state, so static renderers show everything;
-     the "from" keyframes + backwards fill handle the entrance */
   .ln { stroke-linecap: round; stroke-linejoin: round;
          animation: draw 1.6s cubic-bezier(.6,0,.2,1) backwards; }
   .fade { animation: fade .9s ease-out backwards; }
@@ -17,8 +15,16 @@
                      to { stroke-dasharray: 1; stroke-dashoffset: 0; } }
   @keyframes fade { from { opacity: 0; transform: translateY(4px); } }
   @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+  .grow { transform-box: fill-box; transform-origin: 50% 100%;
+           animation: grow .7s cubic-bezier(.3,1.4,.5,1) backwards; }
+  .type { animation: type .01s steps(1) backwards; }
+  .blink { animation: blink 1.05s steps(1) infinite; }
+  @keyframes grow { from { transform: scaleY(0); } }
+  @keyframes type { from { opacity: 0; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  
   @media (prefers-reduced-motion: reduce) {
-    .ln, .fade, .pulse { animation: none; }
+    .ln, .fade, .pulse, .grow, .type, .blink { animation: none; }
   }
 </style>
 <rect width="880" height="470" rx="14" fill="#0c0d10"/>
