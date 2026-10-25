@@ -28,7 +28,7 @@
 </style>
 <rect width="880" height="124" rx="14" fill="#f5f1ea"/><rect x=".5" y=".5" width="879" height="123" rx="13.5" fill="none" stroke="#dcd6cc"/>
 <g class="fade">
-  <text x="48" y="40" class="mono label" fill="#e2401f" style="fill:#e2401f">03</text>
+  <text x="48" y="40" class="mono label" fill="#e2401f" style="fill:#e2401f">02</text>
   <text x="78" y="40" class="mono label">TYPE THEORY · RUST</text>
 </g>
 <g class="fade" style="animation-delay:.1s">
