@@ -38,3 +38,19 @@ and ends as a small, from-scratch implementation, usually in Rust.
 
 <p align="center"><sub>Every image here is redrawn daily from live GitHub data by
 <a href="scripts/generate.py"><code>scripts/generate.py</code></a>, no dependencies, no third-party services.</sub></p>
+
+
+<br>
+
+<h2 align="center">🐒 Monkey Civilization</h2>
+
+<p align="center">
+  <img
+    src="assets/monkey-civilization.svg"
+    alt="My GitHub-powered Monkey Civilization"
+    width="100%"
+  >
+</p>
+
+<br>
+  
