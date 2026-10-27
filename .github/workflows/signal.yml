@@ -22,7 +22,7 @@ jobs:
       - name: Render SVGs
         env:
           # optional PAT (read:user) to include private contributions
-          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MONKEY }}
         run: python3 scripts/generate.py --user ${{ github.repository_owner }} --out assets
       - name: Commit
         run: |
