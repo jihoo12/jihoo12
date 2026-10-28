@@ -1,53 +1,53 @@
 {
   "username": "jihoo12",
-  "seed": "08ae1d5f",
+  "seed": "1f8acd53",
   "age": "SPACE AGE",
   "level": 50,
   "population": 32,
   "capacity": 32,
-  "bananas": 97758,
-  "contributions": 5446,
-  "activeDays": 247,
+  "bananas": 98167,
+  "contributions": 5463,
+  "activeDays": 248,
   "buildings": [
     {
       "id": "dwellings",
       "level": 4,
-      "builtOnDay": 231
+      "builtOnDay": 230
     },
     {
       "id": "farm",
       "level": 4,
-      "builtOnDay": 231
+      "builtOnDay": 230
     },
     {
       "id": "community",
       "level": 4,
-      "builtOnDay": 231
+      "builtOnDay": 230
     },
     {
       "id": "workshop",
       "level": 4,
-      "builtOnDay": 231
+      "builtOnDay": 230
     },
     {
       "id": "culture",
       "level": 4,
-      "builtOnDay": 231
+      "builtOnDay": 230
     },
     {
       "id": "wonder",
       "level": 4,
-      "builtOnDay": 231
+      "builtOnDay": 230
     },
     {
       "id": "energy",
       "level": 4,
-      "builtOnDay": 231
+      "builtOnDay": 230
     },
     {
       "id": "spaceport",
       "level": 4,
-      "builtOnDay": 231
+      "builtOnDay": 230
     }
   ],
   "lastEvent": "DAY 365: The future is bright and sticky. The bananas are proud."
