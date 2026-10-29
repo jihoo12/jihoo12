@@ -18,8 +18,8 @@ and ends as a small, from-scratch implementation, usually in Rust.
 <br>
 
 <!-- work:start -->
-<a href="https://github.com/gloaming-dusk/shady"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-shady-dark.svg"><img alt="shady: An experimental 3D Wayland compositor built on wlroots." src="assets/work-shady-light.svg" width="100%"></picture></a>
 <a href="https://github.com/jihoolang/jihoo"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-jihoo-dark.svg"><img alt="jihoo: An easy programming language with three profiles." src="assets/work-jihoo-light.svg" width="100%"></picture></a>
+<a href="https://github.com/gloaming-dusk/shady"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-shady-dark.svg"><img alt="shady: An experimental 3D Wayland compositor built on wlroots." src="assets/work-shady-light.svg" width="100%"></picture></a>
 <a href="https://github.com/jihoo12/kamo2"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-kamo2-dark.svg"><img alt="kamo2: A cubical, dependently typed functional language." src="assets/work-kamo2-light.svg" width="100%"></picture></a>
 <a href="https://github.com/jihoo12/faust"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-faust-dark.svg"><img alt="faust: Systems language with explicit syscall contracts, to LLVM IR." src="assets/work-faust-light.svg" width="100%"></picture></a>
 <!-- work:end -->
