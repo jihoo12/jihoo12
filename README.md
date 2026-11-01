@@ -1,4 +1,4 @@
-<br>
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/jihoo12/badge.svg)](https://hub.xerj.org/contributors/jihoo12)
 
 <h2 align="center">🐒 Monkey Civilization</h2>
 
@@ -52,4 +52,3 @@ and ends as a small, from-scratch implementation, usually in Rust.
 
 <p align="center"><sub>Every image here is redrawn daily from live GitHub data by
 <a href="scripts/generate.py"><code>scripts/generate.py</code></a>, no dependencies, no third-party services.</sub></p>
-[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/jihoo12/badge.svg)](https://hub.xerj.org/contributors/jihoo12)
