@@ -72,4 +72,4 @@
   >
 </p>
 
-<p align="center"><sub>Illustrations: <a href="https://github.com/jihoo12/nixchan">Nixchan</a> · Animated SVGs: <a href="https://github.com/jihoo12/github-readme-svg">github-readme-svg</a></sub></p>
+<p align="center"><sub>Illustrations: Nixchan · Animated SVGs: <a href="https://github.com/jihoo12/github-readme-svg">github-readme-svg</a></sub></p>
