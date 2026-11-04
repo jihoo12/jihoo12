@@ -33,8 +33,8 @@
   </tr>
 </table>
 
-<br>
-
+<details>
+  
 <h2 align="center">🌌 A Year in Commits</h2>
 
 <p align="center">
@@ -54,3 +54,6 @@
 </p>
 
 <p align="center"><sub>Illustrations: Nixchan · Animated SVGs: <a href="https://github.com/jihoo12/github-readme-svg">github-readme-svg</a> & <a href="https://github.com/jihoo12/monkeys">monkeys</a> </sub></p>
+
+</details>
+
