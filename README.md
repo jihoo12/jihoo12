@@ -19,6 +19,12 @@
 
 <br>
 
+<p align="center">
+  <img src="assets/readme-svg/borealis.svg" alt="Northern lights over a mountain lake, with the title Jihoo: kernels, compilers and proof checkers" width="100%">
+</p>
+
+<br>
+
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -55,6 +61,14 @@
 
 <br>
 
+<h2 align="center">🌌 A Year in Commits</h2>
+
+<p align="center">
+  <img src="assets/readme-svg/contrib-galaxy.svg" alt="My GitHub contributions over the past year as a spiral galaxy" width="100%">
+</p>
+
+<br>
+
 <h2 align="center">🐒 Monkey Civilization</h2>
 
 <p align="center">
@@ -65,4 +79,4 @@
   >
 </p>
 
-<p align="center"><sub>Illustrations: <a href="https://github.com/jihoo12/nixchan">Nixchan</a></sub></p>
+<p align="center"><sub>Illustrations: <a href="https://github.com/jihoo12/nixchan">Nixchan</a> · Animated SVGs: <a href="https://github.com/jihoo12/github-readme-svg">github-readme-svg</a></sub></p>
