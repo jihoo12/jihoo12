@@ -17,7 +17,7 @@
 </p>
 
 <br>
-  
+
 <table align="center">
   <tr>
     <td width="50%" valign="top">
@@ -33,8 +33,8 @@
   </tr>
 </table>
 
-<details>
-  
+<br>
+
 <h2 align="center">🌌 A Year in Commits</h2>
 
 <p align="center">
@@ -43,17 +43,11 @@
 
 <br>
 
-<h2 align="center">🐒 Monkey Civilization</h2>
+<div align="center">
+  <br>
+  <img src="assets/monkey-civilization.svg" alt="My GitHub-powered Monkey Civilization" width="100%">
+</div>
 
-<p align="center">
-  <img
-    src="assets/monkey-civilization.svg"
-    alt="My GitHub-powered Monkey Civilization"
-    width="100%"
-  >
-</p>
+<br>
 
-<p align="center"><sub>Illustrations: Nixchan · Animated SVGs: <a href="https://github.com/jihoo12/github-readme-svg">github-readme-svg</a> & <a href="https://github.com/jihoo12/monkeys">monkeys</a> </sub></p>
-
-</details>
-
+<p align="center"><sub>Illustrations: Nixchan · Animated SVGs: <a href="https://github.com/jihoo12/github-readme-svg">github-readme-svg</a> & <a href="https://github.com/jihoo12/monkeys">monkeys</a></sub></p>

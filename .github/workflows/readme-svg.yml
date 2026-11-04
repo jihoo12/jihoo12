@@ -26,7 +26,7 @@ jobs:
           name: Hi, I'm Jihoo
           lines: |
             Welcome to my GitHub!
-          out: assets/readme-svg/borealis.svg
+          out: assets/readme-svg/synthwave.svg
 
       - name: Contribution galaxy
         uses: jihoo12/github-readme-svg@v0.1
