@@ -17,7 +17,7 @@
 </p>
 
 <br>
-
+  
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -26,28 +26,9 @@
       <sub>A systems language as fast as C, memory-safe without lifetimes or a garbage collector.</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/jihoo12/kaguyaos"><img src="assets/nixchan/kaguyaos.webp" width="96" align="left" alt=""></a>
-      <b><a href="https://github.com/jihoo12/kaguyaos">kaguyaOS</a></b><br>
-      <sub>A hobby operating system for x86_64 UEFI, written in Rust.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/jihoo12/Horn"><img src="assets/nixchan/horn.webp" width="96" align="left" alt=""></a>
-      <b><a href="https://github.com/jihoo12/Horn">Horn</a></b><br>
-      <sub>A small checker for very large proofs, with a 759-line trusted kernel.</sub>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://github.com/gloaming-dusk/shady"><img src="assets/nixchan/shady.webp" width="96" align="left" alt=""></a>
       <b><a href="https://github.com/gloaming-dusk/shady">Shady</a></b><br>
       <sub>An experimental 3D Wayland compositor and Linux desktop.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <a href="https://github.com/jihoo12/rosemary"><img src="assets/nixchan/rosemary.webp" width="96" align="left" alt=""></a>
-      <b><a href="https://github.com/jihoo12/rosemary">Rosemary</a></b><br>
-      <sub>A dependency-free x86-64 reverse-engineering tool: decoding, typed IR, control-flow analysis and C generation.</sub>
     </td>
   </tr>
 </table>
