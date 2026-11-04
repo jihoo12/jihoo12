@@ -18,7 +18,7 @@
 
 <br>
   
-<table>
+<table align="center">
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/jihoolang/jihoo"><img src="assets/nixchan/jihoo.webp" width="96" align="left" alt=""></a>
