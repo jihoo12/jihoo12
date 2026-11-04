@@ -1,53 +1,53 @@
 {
   "username": "jihoo12",
-  "seed": "f71280bc",
+  "seed": "cefe4302",
   "age": "SPACE AGE",
   "level": 50,
   "population": 32,
   "capacity": 32,
-  "bananas": 103517,
-  "contributions": 5689,
-  "activeDays": 254,
+  "bananas": 104331,
+  "contributions": 5723,
+  "activeDays": 255,
   "buildings": [
     {
       "id": "dwellings",
       "level": 4,
-      "builtOnDay": 224
+      "builtOnDay": 223
     },
     {
       "id": "farm",
       "level": 4,
-      "builtOnDay": 224
+      "builtOnDay": 223
     },
     {
       "id": "community",
       "level": 4,
-      "builtOnDay": 224
+      "builtOnDay": 223
     },
     {
       "id": "workshop",
       "level": 4,
-      "builtOnDay": 224
+      "builtOnDay": 223
     },
     {
       "id": "culture",
       "level": 4,
-      "builtOnDay": 224
+      "builtOnDay": 223
     },
     {
       "id": "wonder",
       "level": 4,
-      "builtOnDay": 224
+      "builtOnDay": 223
     },
     {
       "id": "energy",
       "level": 4,
-      "builtOnDay": 224
+      "builtOnDay": 223
     },
     {
       "id": "spaceport",
       "level": 4,
-      "builtOnDay": 224
+      "builtOnDay": 223
     }
   ],
   "holiday": null,
