@@ -2,12 +2,11 @@
   <img src="assets/nixchan/banner.webp" alt="Nixchan coding, thinking, building, debugging and hugging a penguin" width="100%">
 </p>
 
-<h1 align="center">Hey there, I'm Jihoo ✦</h1>
-
 <p align="center">
-  I build what sparks my curiosity and write down what I learn.<br>
-  Kernels, compilers, proof checkers and things that draw pixels, mostly in Rust.
+  <img src="assets/readme-svg/synthwave.svg" alt="jihoo synthwave" width="100%">
 </p>
+
+<br>
 
 <p align="center">
   <a href="https://jihoo12.github.io/"><b>website</b></a>
@@ -15,12 +14,6 @@
   <a href="https://jihoo12.github.io/projects/"><b>projects</b></a>
   &nbsp;·&nbsp;
   <a href="https://jihoo12.github.io/blog/"><b>journal</b></a>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="assets/readme-svg/borealis.svg" alt="Northern lights over a mountain lake, with the title Jihoo: kernels, compilers and proof checkers" width="100%">
 </p>
 
 <br>

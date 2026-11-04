@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Hi, I&#x27;m Jihoo">
+  <title>Hi, I&#x27;m Jihoo</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0221"/><stop offset=".7" stop-color="#2b0a4a"/><stop offset="1" stop-color="#5a0f62"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe86b"/><stop offset=".5" stop-color="#ff7a59"/><stop offset="1" stop-color="#ff2a8a"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0433"/><stop offset="1" stop-color="#05010d"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".35" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="sunMask">
+      <rect width="900" height="300" fill="#fff"/>
+      <rect x="0" y="138.0" width="900" height="1.5" fill="#000"/>
+      <rect x="0" y="151.4" width="900" height="2.8" fill="#000"/>
+      <rect x="0" y="165.6" width="900" height="4.1" fill="#000"/>
+      <rect x="0" y="180.6" width="900" height="5.4" fill="#000"/>
+      <rect x="0" y="196.4" width="900" height="6.7" fill="#000"/>
+      <rect x="0" y="213.0" width="900" height="8.0" fill="#000"/>
+    </mask>
+    <mask id="floorFade"><rect y="200" width="900" height="100" fill="url(#fade)"/></mask>
+    <filter id="neon" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b1"/>
+      <feGaussianBlur stdDeviation="9" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="sunGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+    <clipPath id="frame"><rect width="900" height="300" rx="18"/></clipPath>
+    <clipPath id="aboveHorizon"><rect width="900" height="200"/></clipPath>
+  </defs>
+  <style>
+    .star  { fill: #fff; animation: twinkle ease-in-out infinite; }
+    .grid  { stroke: #ff3df2; stroke-width: 1.4; opacity: .85; }
+    .row   { animation: approach 4.0s cubic-bezier(.55,0,1,.45) infinite; }
+    .sun   { animation: pulse 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .draw  { font: 900 72px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: none; stroke: #4df3ff; stroke-width: 2;
+             stroke-dasharray: 420; animation: draw 9s ease-in-out infinite; }
+    .fill  { font: 900 72px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #e9fdff; animation: fillIn 9s ease-in-out infinite; }
+    .neon  { animation: flicker 9s linear infinite; }
+    .sub   { font: 600 18px ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; fill: #ffe3fa; letter-spacing: 4px; paint-order: stroke; stroke: #1a0433; stroke-width: 5px; stroke-linejoin: round; animation: fadeUp 9s ease-out infinite; }
+    .scan  { animation: scan 7s linear infinite; }
+    @keyframes twinkle { 0%,100% { opacity: .15; } 50% { opacity: 1; } }
+    @keyframes approach { from { transform: translateY(0); opacity: 0; } 15% { opacity: 1; } to { transform: translateY(100px); opacity: 1; } }
+    @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.04); } }
+    @keyframes draw { 0% { stroke-dashoffset: 420; } 30% { stroke-dashoffset: 0; } 90% { stroke-dashoffset: 0; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+    @keyframes fillIn { 0%,28% { opacity: 0; } 38%,90% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes flicker { 0%,40%,44%,46%,70%,72%,100% { opacity: 1; } 42%,45%,71% { opacity: .35; } }
+    @keyframes fadeUp { 0%,35% { opacity: 0; transform: translateY(8px); } 45%,90% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+    @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(300px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .draw { stroke-dashoffset: 0; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="300" fill="url(#sky)"/>
+    <circle class="star" cx="575.5" cy="4.0" r="0.93" style="animation-duration:2.67s;animation-delay:-3.68s"/>
+    <circle class="star" cx="609.0" cy="142.7" r="0.70" style="animation-duration:3.27s;animation-delay:-0.15s"/>
+    <circle class="star" cx="196.8" cy="80.9" r="0.63" style="animation-duration:2.60s;animation-delay:-3.25s"/>
+    <circle class="star" cx="490.4" cy="35.3" r="1.31" style="animation-duration:4.43s;animation-delay:-0.03s"/>
+    <circle class="star" cx="725.2" cy="111.7" r="1.01" style="animation-duration:2.47s;animation-delay:-4.79s"/>
+    <circle class="star" cx="302.9" cy="14.8" r="0.72" style="animation-duration:4.54s;animation-delay:-3.02s"/>
+    <circle class="star" cx="726.4" cy="116.8" r="1.24" style="animation-duration:4.92s;animation-delay:-1.89s"/>
+    <circle class="star" cx="496.8" cy="132.7" r="1.34" style="animation-duration:4.59s;animation-delay:-2.89s"/>
+    <circle class="star" cx="634.1" cy="7.3" r="0.87" style="animation-duration:2.87s;animation-delay:-0.40s"/>
+    <circle class="star" cx="209.5" cy="16.2" r="0.93" style="animation-duration:3.91s;animation-delay:-1.82s"/>
+    <circle class="star" cx="333.2" cy="33.5" r="0.92" style="animation-duration:4.81s;animation-delay:-3.24s"/>
+    <circle class="star" cx="548.2" cy="27.4" r="1.47" style="animation-duration:2.49s;animation-delay:-1.90s"/>
+    <circle class="star" cx="890.6" cy="102.4" r="1.27" style="animation-duration:4.05s;animation-delay:-4.21s"/>
+    <circle class="star" cx="698.4" cy="36.6" r="0.64" style="animation-duration:2.95s;animation-delay:-1.34s"/>
+    <circle class="star" cx="189.9" cy="150.9" r="1.65" style="animation-duration:2.94s;animation-delay:-3.28s"/>
+    <circle class="star" cx="356.1" cy="146.3" r="1.15" style="animation-duration:2.79s;animation-delay:-1.23s"/>
+    <circle class="star" cx="505.2" cy="42.0" r="1.30" style="animation-duration:4.69s;animation-delay:-2.00s"/>
+    <circle class="star" cx="197.4" cy="159.6" r="1.21" style="animation-duration:2.27s;animation-delay:-0.24s"/>
+    <circle class="star" cx="98.7" cy="100.4" r="1.55" style="animation-duration:3.27s;animation-delay:-0.32s"/>
+    <circle class="star" cx="343.5" cy="159.4" r="1.23" style="animation-duration:4.91s;animation-delay:-4.30s"/>
+    <circle class="star" cx="10.3" cy="115.3" r="1.42" style="animation-duration:3.61s;animation-delay:-1.33s"/>
+    <circle class="star" cx="576.9" cy="17.8" r="1.12" style="animation-duration:3.36s;animation-delay:-4.77s"/>
+    <circle class="star" cx="788.3" cy="42.1" r="1.20" style="animation-duration:2.54s;animation-delay:-4.56s"/>
+    <circle class="star" cx="783.5" cy="47.8" r="1.37" style="animation-duration:3.83s;animation-delay:-0.76s"/>
+    <circle class="star" cx="686.3" cy="86.3" r="1.53" style="animation-duration:3.59s;animation-delay:-0.00s"/>
+    <circle class="star" cx="291.7" cy="3.1" r="1.71" style="animation-duration:4.64s;animation-delay:-4.16s"/>
+    <circle class="star" cx="276.8" cy="9.3" r="1.65" style="animation-duration:4.84s;animation-delay:-0.43s"/>
+    <circle class="star" cx="437.4" cy="11.1" r="1.51" style="animation-duration:4.30s;animation-delay:-0.64s"/>
+    <circle class="star" cx="427.8" cy="88.0" r="0.92" style="animation-duration:4.62s;animation-delay:-2.12s"/>
+    <circle class="star" cx="190.6" cy="86.3" r="1.48" style="animation-duration:2.60s;animation-delay:-1.56s"/>
+    <circle class="star" cx="895.6" cy="104.0" r="1.13" style="animation-duration:3.55s;animation-delay:-0.61s"/>
+    <circle class="star" cx="202.2" cy="54.1" r="1.31" style="animation-duration:2.69s;animation-delay:-1.10s"/>
+    <circle class="star" cx="63.9" cy="101.0" r="0.87" style="animation-duration:4.72s;animation-delay:-4.30s"/>
+    <circle class="star" cx="63.8" cy="38.1" r="1.40" style="animation-duration:2.64s;animation-delay:-0.66s"/>
+    <circle class="star" cx="842.0" cy="91.4" r="1.17" style="animation-duration:4.35s;animation-delay:-4.04s"/>
+    <circle class="star" cx="171.4" cy="15.5" r="1.12" style="animation-duration:3.27s;animation-delay:-2.34s"/>
+    <circle class="star" cx="656.2" cy="107.7" r="1.78" style="animation-duration:2.30s;animation-delay:-2.01s"/>
+    <circle class="star" cx="305.4" cy="137.9" r="0.90" style="animation-duration:2.57s;animation-delay:-2.24s"/>
+    <circle class="star" cx="379.7" cy="44.6" r="0.90" style="animation-duration:4.77s;animation-delay:-2.22s"/>
+    <circle class="star" cx="775.2" cy="88.1" r="0.66" style="animation-duration:5.00s;animation-delay:-4.18s"/>
+    <circle class="star" cx="872.1" cy="148.2" r="1.62" style="animation-duration:2.50s;animation-delay:-2.43s"/>
+    <circle class="star" cx="192.4" cy="64.2" r="0.67" style="animation-duration:3.14s;animation-delay:-4.93s"/>
+    <circle class="star" cx="238.7" cy="125.5" r="1.15" style="animation-duration:3.27s;animation-delay:-4.79s"/>
+    <circle class="star" cx="895.9" cy="88.9" r="1.46" style="animation-duration:2.46s;animation-delay:-1.48s"/>
+    <circle class="star" cx="871.8" cy="92.7" r="1.25" style="animation-duration:4.24s;animation-delay:-0.29s"/>
+    <g clip-path="url(#aboveHorizon)">
+      <circle cx="450.0" cy="190" r="105" fill="#ff4f9a" opacity=".55" filter="url(#sunGlow)"/>
+      <circle class="sun" cx="450.0" cy="190" r="95" fill="url(#sun)" mask="url(#sunMask)"/>
+    </g>
+    <rect y="200" width="900" height="100" fill="url(#floor)"/>
+    <g class="grid" mask="url(#floorFade)">
+    <line x1="450.0" y1="200" x2="-990.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="-900.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="-810.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="-720.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="-630.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="-540.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="-450.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="-360.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="-270.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="-180.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="-90.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="0.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="90.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="180.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="270.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="360.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="450.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="540.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="630.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="720.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="810.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="900.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="990.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="1080.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="1170.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="1260.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="1350.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="1440.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="1530.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="1620.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="1710.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="1800.0" y2="300"/>
+    <line x1="450.0" y1="200" x2="1890.0" y2="300"/>
+    <line class="row" x1="0" y1="200" x2="900" y2="200" style="animation-delay:-0.00s"/>
+    <line class="row" x1="0" y1="200" x2="900" y2="200" style="animation-delay:-0.50s"/>
+    <line class="row" x1="0" y1="200" x2="900" y2="200" style="animation-delay:-1.00s"/>
+    <line class="row" x1="0" y1="200" x2="900" y2="200" style="animation-delay:-1.50s"/>
+    <line class="row" x1="0" y1="200" x2="900" y2="200" style="animation-delay:-2.00s"/>
+    <line class="row" x1="0" y1="200" x2="900" y2="200" style="animation-delay:-2.50s"/>
+    <line class="row" x1="0" y1="200" x2="900" y2="200" style="animation-delay:-3.00s"/>
+    <line class="row" x1="0" y1="200" x2="900" y2="200" style="animation-delay:-3.50s"/>
+    </g>
+    <line x1="0" y1="200" x2="900" y2="200" stroke="#ff8af5" stroke-width="2" filter="url(#neon)"/>
+    <rect class="scan" width="900" height="40" fill="#fff" opacity=".04"/>
+  </g>
+
+  <g class="neon" filter="url(#neon)">
+    <text x="50%" y="118" text-anchor="middle" class="draw">Hi, I&#x27;m Jihoo</text>
+    <text x="50%" y="118" text-anchor="middle" class="fill">Hi, I&#x27;m Jihoo</text>
+  </g>
+  <text x="50%" y="160" text-anchor="middle" class="sub">Welcome to my GitHub!</text>
+</svg>

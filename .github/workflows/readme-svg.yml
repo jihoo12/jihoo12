@@ -19,14 +19,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Aurora banner
+      - name: synthwave banner
         uses: jihoo12/github-readme-svg@v0.1
         with:
-          style: borealis
-          name: Jihoo
-          theme: ocean
+          style: synthwave
+          name: Hi, I'm Jihoo
           lines: |
-            Kernels, compilers & proof checkers
+            Welcome to my GitHub!
           out: assets/readme-svg/borealis.svg
 
       - name: Contribution galaxy
