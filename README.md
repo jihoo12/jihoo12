@@ -35,6 +35,10 @@
 
 <br>
 
+<p align="center">
+  <img src="assets/nixchan/nixchan-github-star.webp" alt="nixchan github star image">
+</p>
+
 <h2 align="center">🌌 A Year in Commits</h2>
 
 <p align="center">
