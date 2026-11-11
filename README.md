@@ -39,6 +39,16 @@
   <img src="assets/nixchan/nixchan-github-star.webp" alt="nixchan github star image">
 </p>
 
+<p align="center">
+  <img src="assets/github-status/stats.svg" alt="My GitHub stats and rank">
+</p>
+
+<p align="center">
+  <img src="assets/github-status/achievements.svg" alt="My GitHub achievement medals">
+</p>
+
+<br>
+
 <h2 align="center">🌌 A Year in Commits</h2>
 
 <p align="center">
@@ -54,4 +64,4 @@
 
 <br>
 
-<p align="center"><sub>Illustrations: Nixchan · Animated SVGs: <a href="https://github.com/jihoo12/github-readme-svg">github-readme-svg</a> & <a href="https://github.com/jihoo12/monkeys">monkeys</a></sub></p>
+<p align="center"><sub>Illustrations: Nixchan · Animated SVGs: <a href="https://github.com/jihoo12/github-readme-svg">github-readme-svg</a>, <a href="https://github.com/jihoo12/github-status">github-status</a> & <a href="https://github.com/jihoo12/monkeys">monkeys</a></sub></p>

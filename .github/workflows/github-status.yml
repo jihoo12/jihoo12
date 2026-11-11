@@ -1,0 +1,32 @@
+name: GitHub Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/github-status.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-status
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Writes the stats card and achievement medals, and commits them when they changed.
+      - name: Stats card and achievement medals
+        uses: jihoo12/github-status@v0.1
+        with:
+          token: ${{ secrets.MONKEY }}
+          output-dir: assets/github-status
+          commit-message: 'chore: update GitHub stats'
