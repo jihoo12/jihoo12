@@ -1,0 +1,84 @@
+{
+  "login": "jihoo12",
+  "name": "jihoo",
+  "stars": 6,
+  "forks": 0,
+  "commits": 5169,
+  "prs": 468,
+  "issues": 22,
+  "reviews": 3,
+  "followers": 11,
+  "repos": 156,
+  "contributedTo": 18,
+  "rank": {
+    "level": "B+",
+    "percentile": 41.705803950253475,
+    "score": 58.294196049746525,
+    "metrics": {
+      "commits": 0.9722044064519407,
+      "prs": 0.9984781941803506,
+      "issues": 0.456632568736971,
+      "reviews": 0.6464466094067263,
+      "stars": 0.10714285714285712,
+      "followers": 0.5238095238095238
+    }
+  },
+  "achievements": [
+    {
+      "id": "stars",
+      "name": "Star Collector",
+      "value": 6,
+      "tier": "Locked",
+      "next": 10
+    },
+    {
+      "id": "commits",
+      "name": "Committer",
+      "value": 5169,
+      "tier": "Gold",
+      "next": 10000
+    },
+    {
+      "id": "prs",
+      "name": "Merge Maker",
+      "value": 468,
+      "tier": "Gold",
+      "next": 1000
+    },
+    {
+      "id": "issues",
+      "name": "Issue Scout",
+      "value": 22,
+      "tier": "Bronze",
+      "next": 50
+    },
+    {
+      "id": "reviews",
+      "name": "Keen Reviewer",
+      "value": 3,
+      "tier": "Locked",
+      "next": 5
+    },
+    {
+      "id": "followers",
+      "name": "Crowd Magnet",
+      "value": 11,
+      "tier": "Bronze",
+      "next": 50
+    },
+    {
+      "id": "repos",
+      "name": "Repo Builder",
+      "value": 156,
+      "tier": "Diamond",
+      "next": null
+    },
+    {
+      "id": "contributions",
+      "name": "Collaborator",
+      "value": 18,
+      "tier": "Silver",
+      "next": 30
+    }
+  ]
+}
