@@ -40,10 +40,6 @@
 </p>
 
 <p align="center">
-  <img src="assets/github-status/stats.svg" alt="My GitHub stats and rank">
-</p>
-
-<p align="center">
   <img src="assets/github-status/achievements.svg" alt="My GitHub achievement medals">
 </p>
 
