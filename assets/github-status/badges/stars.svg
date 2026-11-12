@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="140" height="134" viewBox="0 0 140 134" role="img" aria-label="Star Collector: Locked (6)">
-<title>Star Collector: Locked (6)</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="134" viewBox="0 0 140 134" role="img" aria-label="Star Collector: Locked (7)">
+<title>Star Collector: Locked (7)</title>
 <style>
 .pop{animation:pop 1.4s ease-in-out infinite;transform-origin:70px 64px}
 .pop.b{animation-delay:-.7s}
@@ -40,5 +40,5 @@
 <path d="M49 107h-16l7 9.5-7 9.5h16zM91 107h16l-7 9.5 7 9.5h-16z" fill="#7b8491" stroke="#1b1440" stroke-width="2.5" stroke-linejoin="round"/>
 <rect x="44" y="100" width="52" height="23" rx="5" fill="#aab2bd" stroke="#1b1440" stroke-width="2.5"/>
 <path d="M49 104.5h42" stroke="#d9dee4" stroke-width="3" stroke-linecap="round"/>
-<text x="70" y="117" text-anchor="middle" font-family='-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="800" fill="#1b1440">6/10</text>
+<text x="70" y="117" text-anchor="middle" font-family='-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="800" fill="#1b1440">7/10</text>
 </svg>
