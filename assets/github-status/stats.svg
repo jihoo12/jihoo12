@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="262" viewBox="0 0 495 262" role="img" aria-labelledby="t d">
 <title id="t">jihoo — GitHub Stats</title>
-<desc id="d">Stars: 10, Commits: 5377, Pull Requests: 517, Issues: 24, Reviews: 3, Followers: 16, Rank: B+ (Top 39%)</desc>
+<desc id="d">Stars: 10, Commits: 5387, Pull Requests: 527, Issues: 24, Reviews: 3, Followers: 16, Rank: B+ (Top 39%)</desc>
 <style>
 svg{--bg:#ffffff;--border:#d0d7de;--text:#1f2328;--muted:#59636e;--track:#e6eaef;--a1:#0969da;--a2:#8250df}@media(prefers-color-scheme:dark){svg{--bg:#0d1117;--border:#30363d;--text:#f0f6fc;--muted:#9198a1;--track:#262c36;--a1:#58a6ff;--a2:#bc8cff}}
 text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif}
@@ -50,7 +50,7 @@ text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-ser
 <g class="row" style="animation-delay:180ms">
 <g transform="translate(24 136) scale(0.625)" fill="none" stroke="var(--a1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M6 8.5v7M18 15.5V10a4 4 0 0 0-4-4h-2.5M13.5 3.5L11 6l2.5 2.5"/></g>
 <text class="label" x="48" y="148">Pull Requests</text>
-<text class="value" x="212" y="148" text-anchor="end">517</text>
+<text class="value" x="212" y="148" text-anchor="end">527</text>
 <line x1="226" y1="143.5" x2="306" y2="143.5" stroke="var(--track)" stroke-width="6" stroke-linecap="round"/>
 <line class="bar" x1="226" y1="143.5" x2="305.9" y2="143.5" stroke="url(#bar)" stroke-width="6" stroke-linecap="round" stroke-dasharray="79.9" style="--len:79.9;animation-delay:380ms"/>
 </g>
@@ -77,7 +77,7 @@ text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-ser
 </g>
 <text class="foot" x="24" y="244">159 repos  ·  contributed to 26  ·  0 forks</text>
 <circle cx="400" cy="150" r="50" fill="none" stroke="var(--track)" stroke-width="9"/>
-<circle class="ring" cx="400" cy="150" r="50" fill="none" stroke="url(#acc)" stroke-width="9" stroke-linecap="round" stroke-dasharray="314.16" stroke-dashoffset="121.37" transform="rotate(-90 400 150)"/>
+<circle class="ring" cx="400" cy="150" r="50" fill="none" stroke="url(#acc)" stroke-width="9" stroke-linecap="round" stroke-dasharray="314.16" stroke-dashoffset="121.35" transform="rotate(-90 400 150)"/>
 <text class="level" x="400" y="156" text-anchor="middle">B+</text>
 <text class="top" x="400" y="176" text-anchor="middle">TOP 39%</text>
 </svg>
