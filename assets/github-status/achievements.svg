@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="326" viewBox="0 0 495 326" role="img" aria-labelledby="t d">
 <title id="t">Achievements</title>
-<desc id="d">Star Collector: Locked (9), Committer: Gold (5.3k), Merge Maker: Gold (514), Issue Scout: Bronze (24), Keen Reviewer: Locked (3), Crowd Magnet: Bronze (17), Repo Builder: Diamond (159), Collaborator: Silver (26)</desc>
+<desc id="d">Star Collector: Bronze (10), Committer: Gold (5.3k), Merge Maker: Gold (517), Issue Scout: Bronze (24), Keen Reviewer: Locked (3), Crowd Magnet: Bronze (16), Repo Builder: Diamond (159), Collaborator: Silver (26)</desc>
 <style>
 svg{--bg:#ffffff;--border:#d0d7de;--text:#1f2328;--muted:#59636e;--track:#e6eaef;--a1:#0969da;--a2:#8250df}@media(prefers-color-scheme:dark){svg{--bg:#0d1117;--border:#30363d;--text:#f0f6fc;--muted:#9198a1;--track:#262c36;--a1:#58a6ff;--a2:#bc8cff}}
 text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif}
@@ -32,36 +32,41 @@ text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-ser
 <rect x=".5" y=".5" width="494" height="325" rx="10" fill="var(--bg)" stroke="var(--border)"/>
 <rect width="495" height="4" fill="url(#acc)" clip-path="url(#clip)"/>
 <text class="title" x="24" y="36">Achievements</text>
-<text class="count" x="471" y="36" text-anchor="end">6 / 8 unlocked</text>
+<text class="count" x="471" y="36" text-anchor="end">7 / 8 unlocked</text>
 <g transform="translate(24.00 56)">
 <g transform="translate(6.88 0) scale(0.7)">
 <defs>
 <clipPath id="a0c"><circle cx="70" cy="64" r="34"/></clipPath>
-<pattern id="a0h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><circle cx="3" cy="3" r="1.3" fill="#d9dee4"/></pattern>
+<pattern id="a0h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><circle cx="3" cy="3" r="1.3" fill="#ffc491"/></pattern>
 </defs>
-<circle cx="70" cy="64" r="43" fill="#fff" stroke="#fff" stroke-width="9" stroke-linejoin="round"/><path d="M49 107h-16l7 9.5-7 9.5h16zM91 107h16l-7 9.5 7 9.5h-16z" fill="#fff" stroke="#fff" stroke-width="9" stroke-linejoin="round"/><rect x="44" y="100" width="52" height="23" rx="5" fill="#fff" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
-<circle cx="70" cy="64" r="43" fill="#aab2bd" stroke="#1b1440" stroke-width="3"/>
-<path d="M53.5,99.3A39 39 0 0 1 36.2,44.5" fill="none" stroke="#d9dee4" stroke-width="4.5" stroke-linecap="round"/>
-<path d="M44.9,34.1A39 39 0 0 1 53.5,28.7" fill="none" stroke="#d9dee4" stroke-width="4.5" stroke-linecap="round"/>
-<path d="M95.1,34.1A39 39 0 0 1 89.5,97.8" fill="none" stroke="#7b8491" stroke-width="4.5" stroke-linecap="round"/>
-<circle cx="70" cy="64" r="34" fill="#596070"/>
+<circle cx="70" cy="64" r="43" fill="#fff" stroke="#fff" stroke-width="9" stroke-linejoin="round"/><path d="M54 107h-16l7 9.5-7 9.5h16zM86 107h16l-7 9.5 7 9.5h-16z" fill="#fff" stroke="#fff" stroke-width="9" stroke-linejoin="round"/><rect x="49" y="100" width="42" height="23" rx="5" fill="#fff" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+<g class="pop"><polygon points="70.0,10.0 83.8,21.7 99.4,23.5 106.0,37.8 121.4,47.3 114.5,64.0 117.6,79.5 106.0,90.2 101.7,107.7 83.8,106.3 70.0,114.0 56.2,106.3 38.3,107.7 34.0,90.2 22.4,79.5 25.5,64.0 18.6,47.3 34.0,37.8 40.6,23.5 56.2,21.7" fill="#fff" stroke="#fff" stroke-width="9" stroke-linejoin="round"/><polygon points="70.0,10.0 83.8,21.7 99.4,23.5 106.0,37.8 121.4,47.3 114.5,64.0 117.6,79.5 106.0,90.2 101.7,107.7 83.8,106.3 70.0,114.0 56.2,106.3 38.3,107.7 34.0,90.2 22.4,79.5 25.5,64.0 18.6,47.3 34.0,37.8 40.6,23.5 56.2,21.7" fill="#f08a4b" stroke="#1b1440" stroke-width="2.5" stroke-linejoin="round"/></g>
+<circle cx="70" cy="64" r="43" fill="#f08a4b" stroke="#1b1440" stroke-width="3"/>
+<path d="M53.5,99.3A39 39 0 0 1 36.2,44.5" fill="none" stroke="#ffc491" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M44.9,34.1A39 39 0 0 1 53.5,28.7" fill="none" stroke="#ffc491" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M95.1,34.1A39 39 0 0 1 89.5,97.8" fill="none" stroke="#b5531d" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="70" cy="64" r="34" fill="#3a2a8c"/>
 <g clip-path="url(#a0c)">
 <circle cx="70" cy="64" r="34" fill="#1b1440" fill-opacity=".45"/>
-<circle cx="65" cy="58" r="34" fill="#596070"/>
+<circle cx="65" cy="58" r="34" fill="#3a2a8c"/>
 <circle cx="70" cy="64" r="34" fill="url(#a0h)" fill-opacity=".22"/>
-
+<path class="flick" d="M68.4,28.0L70.0,46.0L71.6,28.0ZM94.7,37.8L85.1,49.4L97.0,40.2ZM106.0,63.6L94.0,64.8L105.9,66.9ZM102.0,80.6L93.4,77.5L100.3,83.4ZM80.3,98.5L74.4,81.5L77.1,99.3ZM52.3,95.4L58.9,81.8L49.6,93.6ZM39.7,83.4L49.2,76.0L38.0,80.6ZM35.0,55.7L44.0,56.6L35.9,52.5ZM51.7,33.0L61.5,48.1L54.6,31.5Z" fill="#fff" fill-opacity=".3"/><path class="flick b" d="M80.8,29.6L76.2,47.1L83.8,30.8ZM102.2,47.9L89.2,55.5L103.5,50.9ZM104.0,76.0L92.3,73.0L102.7,79.0ZM94.4,90.5L87.4,84.7L91.9,92.6ZM67.9,99.9L68.1,81.9L64.6,99.6ZM42.7,87.4L53.5,76.9L40.7,84.9ZM34.9,71.9L46.4,68.2L34.3,68.6ZM39.9,44.2L48.2,48.1L41.9,41.5ZM63.4,28.6L67.5,46.2L66.6,28.2Z" fill="#ffc491" fill-opacity=".3"/>
 </g>
 <circle cx="70" cy="64" r="34" fill="none" stroke="#1b1440" stroke-width="3"/>
-<g transform="translate(52 51) scale(1.5)" fill="none" stroke="#1b1440" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"><path d="M12 3l2.7 5.6 6.1.8-4.5 4.3 1.1 6.1L12 16.9 6.6 19.8l1.1-6.1L3.2 9.4l6.1-.8z"/></g><g transform="translate(52 51) scale(1.5)" fill="none" stroke="#d9dee4" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1"><path d="M12 3l2.7 5.6 6.1.8-4.5 4.3 1.1 6.1L12 16.9 6.6 19.8l1.1-6.1L3.2 9.4l6.1-.8z"/></g>
-<ellipse cx="49" cy="49" rx="8" ry="3.6" transform="rotate(-48 49 49)" fill="#fff" fill-opacity="0.5"/>
-<circle cx="44" cy="60" r="2" fill="#fff" fill-opacity="0.5"/>
-<path d="M49 107h-16l7 9.5-7 9.5h16zM91 107h16l-7 9.5 7 9.5h-16z" fill="#7b8491" stroke="#1b1440" stroke-width="2.5" stroke-linejoin="round"/>
-<rect x="44" y="100" width="52" height="23" rx="5" fill="#aab2bd" stroke="#1b1440" stroke-width="2.5"/>
-<path d="M49 104.5h42" stroke="#d9dee4" stroke-width="3" stroke-linecap="round"/>
-<text x="70" y="117" text-anchor="middle" font-family='-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="800" fill="#1b1440">9/10</text>
+<polygon points="70.0,34.9 71.2,37.8 74.4,38.1 72.0,40.1 72.7,43.2 70.0,41.6 67.3,43.2 68.0,40.1 65.6,38.1 68.8,37.8" fill="#ffe14d" stroke="#1b1440" stroke-width="1.3" stroke-linejoin="round"/>
+<g class="bob"><g transform="translate(52 51) scale(1.5)" fill="none" stroke="#1b1440" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" opacity="1"><path d="M12 3l2.7 5.6 6.1.8-4.5 4.3 1.1 6.1L12 16.9 6.6 19.8l1.1-6.1L3.2 9.4l6.1-.8z"/></g><g transform="translate(52 51) scale(1.5)" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="1"><path d="M12 3l2.7 5.6 6.1.8-4.5 4.3 1.1 6.1L12 16.9 6.6 19.8l1.1-6.1L3.2 9.4l6.1-.8z"/></g></g>
+<ellipse cx="49" cy="49" rx="8" ry="3.6" transform="rotate(-48 49 49)" fill="#fff" fill-opacity="0.9"/>
+<circle cx="44" cy="60" r="2" fill="#fff" fill-opacity="0.9"/>
+<path d="M54 107h-16l7 9.5-7 9.5h16zM86 107h16l-7 9.5 7 9.5h-16z" fill="#b5531d" stroke="#1b1440" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="49" y="100" width="42" height="23" rx="5" fill="#f08a4b" stroke="#1b1440" stroke-width="2.5"/>
+<path d="M54 104.5h32" stroke="#ffc491" stroke-width="3" stroke-linecap="round"/>
+<text x="70" y="117" text-anchor="middle" font-family='-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="800" fill="#1b1440">10</text>
+<path class="tw" style="animation-delay:0s" d="M17 16Q17 24 25 24Q17 24 17 32Q17 24 9 24Q17 24 17 16Z" fill="#fff" stroke="#1b1440" stroke-width="1.6" stroke-linejoin="round"/>
+<path class="tw" style="animation-delay:-0.4s" d="M124 81Q124 88 131 88Q124 88 124 95Q124 88 117 88Q124 88 124 81Z" fill="#ffe14d" stroke="#1b1440" stroke-width="1.6" stroke-linejoin="round"/>
+<path class="tw" style="animation-delay:-0.8s" d="M14 80Q14 86 20 86Q14 86 14 92Q14 86 8 86Q14 86 14 80Z" fill="#fff" stroke="#1b1440" stroke-width="1.6" stroke-linejoin="round"/>
 </g>
 <text class="name" x="55.875" y="109" text-anchor="middle">Star Collector</text>
-<text class="tier" x="55.875" y="124" text-anchor="middle">Locked</text>
+<text class="tier" x="55.875" y="124" text-anchor="middle">Bronze</text>
 </g>
 <g transform="translate(135.75 56)">
 <g transform="translate(6.88 0) scale(0.7)">
@@ -136,7 +141,7 @@ text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-ser
 <path d="M53 107h-16l7 9.5-7 9.5h16zM87 107h16l-7 9.5 7 9.5h-16z" fill="#e68a00" stroke="#1b1440" stroke-width="2.5" stroke-linejoin="round"/>
 <rect x="48" y="100" width="44" height="23" rx="5" fill="#ffc928" stroke="#1b1440" stroke-width="2.5"/>
 <path d="M53 104.5h34" stroke="#fff3a6" stroke-width="3" stroke-linecap="round"/>
-<text x="70" y="117" text-anchor="middle" font-family='-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="800" fill="#1b1440">514</text>
+<text x="70" y="117" text-anchor="middle" font-family='-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="800" fill="#1b1440">517</text>
 <g class="flick"><path d="M98.6,10.1L101.5,4.8M109.2,17.3L115.0,10.4M118.1,26.4L122.8,22.8" stroke="#fff" stroke-width="6.5" stroke-linecap="round"/><path d="M98.6,10.1L101.5,4.8M109.2,17.3L115.0,10.4M118.1,26.4L122.8,22.8" stroke="#1b1440" stroke-width="3" stroke-linecap="round"/></g>
 <path class="tw" style="animation-delay:0s" d="M17 16Q17 24 25 24Q17 24 17 32Q17 24 9 24Q17 24 17 16Z" fill="#fff" stroke="#1b1440" stroke-width="1.6" stroke-linejoin="round"/>
 <path class="tw" style="animation-delay:-0.4s" d="M124 81Q124 88 131 88Q124 88 124 95Q124 88 117 88Q124 88 124 81Z" fill="#ffe14d" stroke="#1b1440" stroke-width="1.6" stroke-linejoin="round"/>
@@ -239,7 +244,7 @@ text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-ser
 <path d="M54 107h-16l7 9.5-7 9.5h16zM86 107h16l-7 9.5 7 9.5h-16z" fill="#b5531d" stroke="#1b1440" stroke-width="2.5" stroke-linejoin="round"/>
 <rect x="49" y="100" width="42" height="23" rx="5" fill="#f08a4b" stroke="#1b1440" stroke-width="2.5"/>
 <path d="M54 104.5h32" stroke="#ffc491" stroke-width="3" stroke-linecap="round"/>
-<text x="70" y="117" text-anchor="middle" font-family='-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="800" fill="#1b1440">17</text>
+<text x="70" y="117" text-anchor="middle" font-family='-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif' font-size="13" font-weight="800" fill="#1b1440">16</text>
 <path class="tw" style="animation-delay:0s" d="M17 16Q17 24 25 24Q17 24 17 32Q17 24 9 24Q17 24 17 16Z" fill="#fff" stroke="#1b1440" stroke-width="1.6" stroke-linejoin="round"/>
 <path class="tw" style="animation-delay:-0.4s" d="M124 81Q124 88 131 88Q124 88 124 95Q124 88 117 88Q124 88 124 81Z" fill="#ffe14d" stroke="#1b1440" stroke-width="1.6" stroke-linejoin="round"/>
 <path class="tw" style="animation-delay:-0.8s" d="M14 80Q14 86 20 86Q14 86 14 92Q14 86 8 86Q14 86 14 80Z" fill="#fff" stroke="#1b1440" stroke-width="1.6" stroke-linejoin="round"/>

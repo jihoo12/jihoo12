@@ -1,47 +1,47 @@
 {
   "login": "jihoo12",
   "name": "jihoo",
-  "stars": 9,
+  "stars": 10,
   "forks": 0,
-  "commits": 5374,
-  "prs": 514,
+  "commits": 5377,
+  "prs": 517,
   "issues": 24,
   "reviews": 3,
-  "followers": 17,
+  "followers": 16,
   "repos": 159,
   "contributedTo": 26,
   "rank": {
     "level": "B+",
-    "percentile": 38.98709627121038,
-    "score": 61.01290372878962,
+    "percentile": 38.63334099513026,
+    "score": 61.36665900486974,
     "metrics": {
-      "commits": 0.9758862472647042,
-      "prs": 0.9991957118971997,
+      "commits": 0.9759363383051227,
+      "prs": 0.9992284752813834,
       "issues": 0.48594308667196673,
       "reviews": 0.6464466094067263,
-      "stars": 0.15254237288135594,
-      "followers": 0.6296296296296295
+      "stars": 0.16666666666666669,
+      "followers": 0.6153846153846154
     }
   },
   "achievements": [
     {
       "id": "stars",
       "name": "Star Collector",
-      "value": 9,
-      "tier": "Locked",
-      "next": 10
+      "value": 10,
+      "tier": "Bronze",
+      "next": 50
     },
     {
       "id": "commits",
       "name": "Committer",
-      "value": 5374,
+      "value": 5377,
       "tier": "Gold",
       "next": 10000
     },
     {
       "id": "prs",
       "name": "Merge Maker",
-      "value": 514,
+      "value": 517,
       "tier": "Gold",
       "next": 1000
     },
@@ -62,7 +62,7 @@
     {
       "id": "followers",
       "name": "Crowd Magnet",
-      "value": 17,
+      "value": 16,
       "tier": "Bronze",
       "next": 50
     },
