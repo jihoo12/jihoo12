@@ -3,21 +3,21 @@
   "name": "jihoo",
   "stars": 11,
   "forks": 0,
-  "commits": 5464,
-  "prs": 541,
-  "issues": 24,
+  "commits": 5531,
+  "prs": 544,
+  "issues": 25,
   "reviews": 3,
   "followers": 15,
-  "repos": 164,
-  "contributedTo": 24,
+  "repos": 165,
+  "contributedTo": 25,
   "rank": {
     "level": "B+",
-    "percentile": 38.27724304098156,
-    "score": 61.72275695901844,
+    "percentile": 38.14240408817772,
+    "score": 61.85759591182228,
     "metrics": {
-      "commits": 0.977344580736268,
-      "prs": 0.9994468340403829,
-      "issues": 0.48594308667196673,
+      "commits": 0.9783726606866956,
+      "prs": 0.9994693677429072,
+      "issues": 0.5,
       "reviews": 0.6464466094067263,
       "stars": 0.18032786885245902,
       "followers": 0.6
@@ -34,21 +34,21 @@
     {
       "id": "commits",
       "name": "Committer",
-      "value": 5464,
+      "value": 5531,
       "tier": "Gold",
       "next": 10000
     },
     {
       "id": "prs",
       "name": "Merge Maker",
-      "value": 541,
+      "value": 544,
       "tier": "Gold",
       "next": 1000
     },
     {
       "id": "issues",
       "name": "Issue Scout",
-      "value": 24,
+      "value": 25,
       "tier": "Bronze",
       "next": 50
     },
@@ -69,14 +69,14 @@
     {
       "id": "repos",
       "name": "Repo Builder",
-      "value": 164,
+      "value": 165,
       "tier": "Diamond",
       "next": null
     },
     {
       "id": "contributions",
       "name": "Collaborator",
-      "value": 24,
+      "value": 25,
       "tier": "Silver",
       "next": 30
     }
