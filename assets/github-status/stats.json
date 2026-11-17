@@ -1,9 +1,9 @@
 {
   "login": "jihoo12",
   "name": "jihoo",
-  "stars": 11,
+  "stars": 12,
   "forks": 0,
-  "commits": 5531,
+  "commits": 5559,
   "prs": 544,
   "issues": 25,
   "reviews": 3,
@@ -12,14 +12,14 @@
   "contributedTo": 25,
   "rank": {
     "level": "B+",
-    "percentile": 38.14240408817772,
-    "score": 61.85759591182228,
+    "percentile": 37.694791829989214,
+    "score": 62.305208170010786,
     "metrics": {
-      "commits": 0.9783726606866956,
+      "commits": 0.9787883596893749,
       "prs": 0.9994693677429072,
       "issues": 0.5,
       "reviews": 0.6464466094067263,
-      "stars": 0.18032786885245902,
+      "stars": 0.1935483870967742,
       "followers": 0.6
     }
   },
@@ -27,14 +27,14 @@
     {
       "id": "stars",
       "name": "Star Collector",
-      "value": 11,
+      "value": 12,
       "tier": "Bronze",
       "next": 50
     },
     {
       "id": "commits",
       "name": "Committer",
-      "value": 5531,
+      "value": 5559,
       "tier": "Gold",
       "next": 10000
     },

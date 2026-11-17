@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="262" viewBox="0 0 495 262" role="img" aria-labelledby="t d">
 <title id="t">jihoo — GitHub Stats</title>
-<desc id="d">Stars: 11, Commits: 5531, Pull Requests: 544, Issues: 25, Reviews: 3, Followers: 15, Rank: B+ (Top 39%)</desc>
+<desc id="d">Stars: 12, Commits: 5559, Pull Requests: 544, Issues: 25, Reviews: 3, Followers: 15, Rank: B+ (Top 38%)</desc>
 <style>
 svg{--bg:#ffffff;--border:#d0d7de;--text:#1f2328;--muted:#59636e;--track:#e6eaef;--a1:#0969da;--a2:#8250df}@media(prefers-color-scheme:dark){svg{--bg:#0d1117;--border:#30363d;--text:#f0f6fc;--muted:#9198a1;--track:#262c36;--a1:#58a6ff;--a2:#bc8cff}}
 text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif}
@@ -36,9 +36,9 @@ text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-ser
 <g class="row" style="animation-delay:0ms">
 <g transform="translate(24 86) scale(0.625)" fill="none" stroke="var(--a1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1"><path d="M12 3l2.7 5.6 6.1.8-4.5 4.3 1.1 6.1L12 16.9 6.6 19.8l1.1-6.1L3.2 9.4l6.1-.8z"/></g>
 <text class="label" x="48" y="98">Stars</text>
-<text class="value" x="212" y="98" text-anchor="end">11</text>
+<text class="value" x="212" y="98" text-anchor="end">12</text>
 <line x1="226" y1="93.5" x2="306" y2="93.5" stroke="var(--track)" stroke-width="6" stroke-linecap="round"/>
-<line class="bar" x1="226" y1="93.5" x2="240.4" y2="93.5" stroke="url(#bar)" stroke-width="6" stroke-linecap="round" stroke-dasharray="14.4" style="--len:14.4;animation-delay:200ms"/>
+<line class="bar" x1="226" y1="93.5" x2="241.5" y2="93.5" stroke="url(#bar)" stroke-width="6" stroke-linecap="round" stroke-dasharray="15.5" style="--len:15.5;animation-delay:200ms"/>
 </g>
 <g class="row" style="animation-delay:90ms">
 <g transform="translate(24 111) scale(0.625)" fill="none" stroke="var(--a1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1"><circle cx="12" cy="12" r="4"/><path d="M2 12h6M16 12h6"/></g>
@@ -77,7 +77,7 @@ text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-ser
 </g>
 <text class="foot" x="24" y="244">165 repos  ·  contributed to 25  ·  0 forks</text>
 <circle cx="400" cy="150" r="50" fill="none" stroke="var(--track)" stroke-width="9"/>
-<circle class="ring" cx="400" cy="150" r="50" fill="none" stroke="url(#acc)" stroke-width="9" stroke-linecap="round" stroke-dasharray="314.16" stroke-dashoffset="119.83" transform="rotate(-90 400 150)"/>
+<circle class="ring" cx="400" cy="150" r="50" fill="none" stroke="url(#acc)" stroke-width="9" stroke-linecap="round" stroke-dasharray="314.16" stroke-dashoffset="118.42" transform="rotate(-90 400 150)"/>
 <text class="level" x="400" y="156" text-anchor="middle">B+</text>
-<text class="top" x="400" y="176" text-anchor="middle">TOP 39%</text>
+<text class="top" x="400" y="176" text-anchor="middle">TOP 38%</text>
 </svg>
