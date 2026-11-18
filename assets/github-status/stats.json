@@ -3,24 +3,24 @@
   "name": "jihoo",
   "stars": 12,
   "forks": 0,
-  "commits": 5559,
+  "commits": 5601,
   "prs": 544,
-  "issues": 25,
+  "issues": 26,
   "reviews": 3,
-  "followers": 15,
-  "repos": 165,
-  "contributedTo": 25,
+  "followers": 14,
+  "repos": 166,
+  "contributedTo": 26,
   "rank": {
     "level": "B+",
-    "percentile": 37.694791829989214,
-    "score": 62.305208170010786,
+    "percentile": 37.70959941502626,
+    "score": 62.29040058497374,
     "metrics": {
-      "commits": 0.9787883596893749,
+      "commits": 0.9793969747735568,
       "prs": 0.9994693677429072,
-      "issues": 0.5,
+      "issues": 0.5136725262938573,
       "reviews": 0.6464466094067263,
       "stars": 0.1935483870967742,
-      "followers": 0.6
+      "followers": 0.5833333333333334
     }
   },
   "achievements": [
@@ -34,7 +34,7 @@
     {
       "id": "commits",
       "name": "Committer",
-      "value": 5559,
+      "value": 5601,
       "tier": "Gold",
       "next": 10000
     },
@@ -48,7 +48,7 @@
     {
       "id": "issues",
       "name": "Issue Scout",
-      "value": 25,
+      "value": 26,
       "tier": "Bronze",
       "next": 50
     },
@@ -62,21 +62,21 @@
     {
       "id": "followers",
       "name": "Crowd Magnet",
-      "value": 15,
+      "value": 14,
       "tier": "Bronze",
       "next": 50
     },
     {
       "id": "repos",
       "name": "Repo Builder",
-      "value": 165,
+      "value": 166,
       "tier": "Diamond",
       "next": null
     },
     {
       "id": "contributions",
       "name": "Collaborator",
-      "value": 25,
+      "value": 26,
       "tier": "Silver",
       "next": 30
     }

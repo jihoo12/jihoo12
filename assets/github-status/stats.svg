@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="262" viewBox="0 0 495 262" role="img" aria-labelledby="t d">
 <title id="t">jihoo — GitHub Stats</title>
-<desc id="d">Stars: 12, Commits: 5559, Pull Requests: 544, Issues: 25, Reviews: 3, Followers: 15, Rank: B+ (Top 38%)</desc>
+<desc id="d">Stars: 12, Commits: 5601, Pull Requests: 544, Issues: 26, Reviews: 3, Followers: 14, Rank: B+ (Top 38%)</desc>
 <style>
 svg{--bg:#ffffff;--border:#d0d7de;--text:#1f2328;--muted:#59636e;--track:#e6eaef;--a1:#0969da;--a2:#8250df}@media(prefers-color-scheme:dark){svg{--bg:#0d1117;--border:#30363d;--text:#f0f6fc;--muted:#9198a1;--track:#262c36;--a1:#58a6ff;--a2:#bc8cff}}
 text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-serif}
@@ -43,9 +43,9 @@ text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-ser
 <g class="row" style="animation-delay:90ms">
 <g transform="translate(24 111) scale(0.625)" fill="none" stroke="var(--a1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1"><circle cx="12" cy="12" r="4"/><path d="M2 12h6M16 12h6"/></g>
 <text class="label" x="48" y="123">Commits</text>
-<text class="value" x="212" y="123" text-anchor="end">5.5k</text>
+<text class="value" x="212" y="123" text-anchor="end">5.6k</text>
 <line x1="226" y1="118.5" x2="306" y2="118.5" stroke="var(--track)" stroke-width="6" stroke-linecap="round"/>
-<line class="bar" x1="226" y1="118.5" x2="304.3" y2="118.5" stroke="url(#bar)" stroke-width="6" stroke-linecap="round" stroke-dasharray="78.3" style="--len:78.3;animation-delay:290ms"/>
+<line class="bar" x1="226" y1="118.5" x2="304.4" y2="118.5" stroke="url(#bar)" stroke-width="6" stroke-linecap="round" stroke-dasharray="78.4" style="--len:78.4;animation-delay:290ms"/>
 </g>
 <g class="row" style="animation-delay:180ms">
 <g transform="translate(24 136) scale(0.625)" fill="none" stroke="var(--a1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M6 8.5v7M18 15.5V10a4 4 0 0 0-4-4h-2.5M13.5 3.5L11 6l2.5 2.5"/></g>
@@ -57,9 +57,9 @@ text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-ser
 <g class="row" style="animation-delay:270ms">
 <g transform="translate(24 161) scale(0.625)" fill="none" stroke="var(--a1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2"/></g>
 <text class="label" x="48" y="173">Issues</text>
-<text class="value" x="212" y="173" text-anchor="end">25</text>
+<text class="value" x="212" y="173" text-anchor="end">26</text>
 <line x1="226" y1="168.5" x2="306" y2="168.5" stroke="var(--track)" stroke-width="6" stroke-linecap="round"/>
-<line class="bar" x1="226" y1="168.5" x2="266" y2="168.5" stroke="url(#bar)" stroke-width="6" stroke-linecap="round" stroke-dasharray="40.0" style="--len:40.0;animation-delay:470ms"/>
+<line class="bar" x1="226" y1="168.5" x2="267.1" y2="168.5" stroke="url(#bar)" stroke-width="6" stroke-linecap="round" stroke-dasharray="41.1" style="--len:41.1;animation-delay:470ms"/>
 </g>
 <g class="row" style="animation-delay:360ms">
 <g transform="translate(24 186) scale(0.625)" fill="none" stroke="var(--a1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></g>
@@ -71,13 +71,13 @@ text{font-family:-apple-system,"Segoe UI",Ubuntu,"Helvetica Neue",Arial,sans-ser
 <g class="row" style="animation-delay:450ms">
 <g transform="translate(24 211) scale(0.625)" fill="none" stroke="var(--a1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="1"><circle cx="12" cy="8" r="4"/><path d="M4 20.5c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></g>
 <text class="label" x="48" y="223">Followers</text>
-<text class="value" x="212" y="223" text-anchor="end">15</text>
+<text class="value" x="212" y="223" text-anchor="end">14</text>
 <line x1="226" y1="218.5" x2="306" y2="218.5" stroke="var(--track)" stroke-width="6" stroke-linecap="round"/>
-<line class="bar" x1="226" y1="218.5" x2="274" y2="218.5" stroke="url(#bar)" stroke-width="6" stroke-linecap="round" stroke-dasharray="48.0" style="--len:48.0;animation-delay:650ms"/>
+<line class="bar" x1="226" y1="218.5" x2="272.7" y2="218.5" stroke="url(#bar)" stroke-width="6" stroke-linecap="round" stroke-dasharray="46.7" style="--len:46.7;animation-delay:650ms"/>
 </g>
-<text class="foot" x="24" y="244">165 repos  ·  contributed to 25  ·  0 forks</text>
+<text class="foot" x="24" y="244">166 repos  ·  contributed to 26  ·  0 forks</text>
 <circle cx="400" cy="150" r="50" fill="none" stroke="var(--track)" stroke-width="9"/>
-<circle class="ring" cx="400" cy="150" r="50" fill="none" stroke="url(#acc)" stroke-width="9" stroke-linecap="round" stroke-dasharray="314.16" stroke-dashoffset="118.42" transform="rotate(-90 400 150)"/>
+<circle class="ring" cx="400" cy="150" r="50" fill="none" stroke="url(#acc)" stroke-width="9" stroke-linecap="round" stroke-dasharray="314.16" stroke-dashoffset="118.47" transform="rotate(-90 400 150)"/>
 <text class="level" x="400" y="156" text-anchor="middle">B+</text>
 <text class="top" x="400" y="176" text-anchor="middle">TOP 38%</text>
 </svg>
