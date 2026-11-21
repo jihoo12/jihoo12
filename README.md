@@ -18,21 +18,6 @@
 
 <br>
 
-<table align="center">
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/jihoolang/jihoo"><img src="assets/nixchan/jihoo.webp" width="96" align="left" alt=""></a>
-      <b><a href="https://github.com/jihoolang/jihoo">jihoo</a></b><br>
-      <sub>A systems language as fast as C, memory-safe without lifetimes or a garbage collector.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/gloaming-dusk/shady"><img src="assets/nixchan/shady.webp" width="96" align="left" alt=""></a>
-      <b><a href="https://github.com/gloaming-dusk/shady">Shady</a></b><br>
-      <sub>An experimental 3D Wayland compositor and Linux desktop.</sub>
-    </td>
-  </tr>
-</table>
-
 <br>
 
 <p align="center">
