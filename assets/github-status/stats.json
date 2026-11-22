@@ -3,24 +3,24 @@
   "name": "jihoo",
   "stars": 17,
   "forks": 0,
-  "commits": 5823,
-  "prs": 573,
+  "commits": 5945,
+  "prs": 576,
   "issues": 26,
   "reviews": 3,
-  "followers": 13,
+  "followers": 14,
   "repos": 171,
   "contributedTo": 22,
   "rank": {
     "level": "A-",
-    "percentile": 35.80110084467266,
-    "score": 64.19889915532734,
+    "percentile": 35.62590037984216,
+    "score": 64.37409962015784,
     "metrics": {
-      "commits": 0.9823354598886782,
-      "prs": 0.9996450262408886,
+      "commits": 0.9837678265109739,
+      "prs": 0.9996594864095825,
       "issues": 0.5136725262938573,
       "reviews": 0.6464466094067263,
       "stars": 0.2537313432835821,
-      "followers": 0.5652173913043479
+      "followers": 0.5833333333333334
     }
   },
   "achievements": [
@@ -34,14 +34,14 @@
     {
       "id": "commits",
       "name": "Committer",
-      "value": 5823,
+      "value": 5945,
       "tier": "Gold",
       "next": 10000
     },
     {
       "id": "prs",
       "name": "Merge Maker",
-      "value": 573,
+      "value": 576,
       "tier": "Gold",
       "next": 1000
     },
@@ -62,7 +62,7 @@
     {
       "id": "followers",
       "name": "Crowd Magnet",
-      "value": 13,
+      "value": 14,
       "tier": "Bronze",
       "next": 50
     },
