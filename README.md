@@ -8,36 +8,17 @@
 
 <br>
 
-<p align="center">
-  <a href="https://jihoo12.github.io/"><b>website</b></a>
+<h1 align="center">
+  <a href="https://jihoo12.github.io/">website</a>
   &nbsp;·&nbsp;
-  <a href="https://jihoo12.github.io/projects/"><b>projects</b></a>
+  <a href="https://jihoo12.github.io/projects/">projects</a>
   &nbsp;·&nbsp;
-  <a href="https://jihoo12.github.io/blog/"><b>journal</b></a>
-</p>
-
-<br>
-
-<br>
+  <a href="https://jihoo12.github.io/blog/">journal</a>
+</h1>
 
 <p align="center">
   <img src="assets/nixchan/nixchan-github-star.webp" alt="nixchan github star image">
 </p>
-
-<p align="center">
-  <img src="assets/github-status/badges/rank.svg" alt="My GitHub achievement medals">
-  <img src="assets/github-status/badges/repos.svg" alt="My GitHub achievement medals">
-  <img src="assets/github-status/badges/commits.svg" alt="My GitHub achievement medals">
-  <img src="assets/github-status/badges/prs.svg" alt="My GitHub achievement medals">
-  <img src="assets/github-status/badges/contributions.svg" alt="My GitHub achievement medals">
-  <br>
-  <img src="assets/github-status/badges/issues.svg" alt="My GitHub achievement medals">
-  <img src="assets/github-status/badges/followers.svg" alt="My GitHub achievement medals">
-  <img src="assets/github-status/badges/stars.svg" alt="My GitHub achievement medals">
-  <img src="assets/github-status/badges/reviews.svg" alt="My GitHub achievement medals">
-</p>
-
-<br>
 
 <h2 align="center">🌌 A Year in Commits</h2>
 
